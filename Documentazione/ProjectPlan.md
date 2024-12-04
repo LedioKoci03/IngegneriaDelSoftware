@@ -1,5 +1,9 @@
 # UnibgParking
-
+## Project Plan
+### Progetto di ingegneria del software
+Ledio Koci 1085165
+Giovanni Nocerino 1086979
+Francesco Pezzotta 1086783
 
 
 ## INDICE
@@ -19,13 +23,21 @@
 14. [Consegna](#Consegna)
 
 ## 1. Introduzione
-Content for introduction...
+
+### Il progetto mira a sviluppare un sistema per ottimizzare la gestione dei parcheggi dell'università, ridurre i tempi di ricerca e migliorare l’esperienza utente.
+
+Obiettivi principali:
+	•	Ottimizzazione degli spazi disponibili.
+	•	Pagamenti digitali per visitatori occasionali.
+	•	Sensori e QRCode per il monitoraggio automatizzato.
 
 ## 2. Modello di processo
-Content for features...
+
+### Analisi 
 
 ## 3. Organizzazione del processo
-Content for usage...
+
+Ciascun membro del gruppo detiene le medesime responsabilità durante tutte le fasi del progetto (quindi progettazione, sviluppo e test), adottando ruoli di tipo Agile; in particolare, verranno effetuate delle riunioni sporadiche in modo tale da poter permettere a tutti e tre i membri di confrontarsi sullo sviluppo del progetto e pianificare i prossimi passi da seguire.
 
 ## 4. Standard, linee guida, procedure
 Content for conclusion...
@@ -34,9 +46,25 @@ Content for conclusion...
 
 ## 6. Rischi
 
+Nello sviluppo del software si potrebbero verificare diversi rischi, di seguito elencati:
+
+1. Ritardi nel rispetto delle scadenze intermedie: sarà necessario monitorare regolarmente l’avanzamento del progetto.
+2. Difficoltà nell’utilizzo di tecnologie e framework non familiari: sarà fondamentale consultare la documentazione ufficiale e risorse online, così come anche farsi consigliare secondo le capacità che ogni membro del team possiede.
+3. Assenza di un membro del team per svariate cause: sarà necessario pianificare il lavoro in modo flessibile in modo tale che tutti i membri del team possano contribuire allo sviluppo del software alla stessa maniera.
+4. Bug non individuati durante il testing: Implementare più casi di test possibili in modo tale da avere una copertura sufficiente.
+
 ## 7. Personale
 
+### Vedi capitolo 3.
+
+Di seguito i membri:
+
+- Ledio Koci
+- Giovanni Nocerino
+- Francesco Pezzotta
+
 ## 8. Metodi e tecniche
+  
 
 ## 9. Garanzia di qualità
 
@@ -49,3 +77,5 @@ Content for conclusion...
 ## 13. Cambiamenti
 
 ## 14. Consegna
+
+Il progetto con relativa documentazione verrà condiviso su GitHub rispettivamente con il Prof. Gargantini e Prof.ssa Bonfanti.
