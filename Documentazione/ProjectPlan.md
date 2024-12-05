@@ -1,9 +1,9 @@
 # UnibgParking
 ## Project Plan
 ### Progetto di ingegneria del software
-Ledio Koci 1085165
-Giovanni Nocerino 1086979
-Francesco Pezzotta 1086783
+Ledio Koci 1085165<br>
+Giovanni Nocerino 1086979<br>
+Francesco Pezzotta 1086783<br>
 
 
 ## INDICE
@@ -26,10 +26,10 @@ Francesco Pezzotta 1086783
 
 ### Il progetto mira a sviluppare un sistema per ottimizzare la gestione dei parcheggi dell'università, ridurre i tempi di ricerca e migliorare l’esperienza utente.
 
-Obiettivi principali:
-	•	Ottimizzazione degli spazi disponibili.
-	•	Pagamenti digitali per visitatori occasionali.
-	•	Sensori e QRCode per il monitoraggio automatizzato.
+Obiettivi principali:<br>
+	- Ottimizzazione degli spazi disponibili.
+	- Pagamenti digitali per visitatori occasionali.
+	- Sensori e QRCode per il monitoraggio automatizzato.
 
 ## 2. Modello di processo
 
@@ -50,7 +50,7 @@ Nello sviluppo del software si potrebbero verificare diversi rischi, di seguito 
 
 1. Ritardi nel rispetto delle scadenze intermedie: sarà necessario monitorare regolarmente l’avanzamento del progetto.
 2. Difficoltà nell’utilizzo di tecnologie e framework non familiari: sarà fondamentale consultare la documentazione ufficiale e risorse online, così come anche farsi consigliare secondo le capacità che ogni membro del team possiede.
-3. Assenza di un membro del team per svariate cause: sarà necessario pianificare il lavoro in modo flessibile in modo tale che tutti i membri del team possano contribuire allo sviluppo del software alla stessa maniera.
+3. Assenza di un membro del team per svariate cause: sarà necessario pianificare il lavoro in modo flessibile cosicchè tale che tutti i membri del team possano contribuire allo sviluppo del software alla stessa maniera.
 4. Bug non individuati durante il testing: Implementare più casi di test possibili in modo tale da avere una copertura sufficiente.
 
 ## 7. Personale
@@ -71,6 +71,20 @@ Di seguito i membri:
 ## 10. Pacchetti di lavoro (workpackages)
 
 ## 11. Risorse
+
+Risorse umane:
+Vedi capitolo 3 e 7.
+
+Software e tool:
+
+- Eclipse: IDE utilizzato per poter lavorare allo sviluppo del progetto (versione 2024-09)
+- Papyrus: utile per poter realizzare i diagrammi UML
+- libreria db ancora non accertata
+
+Per quanto riguarda i dispositivi, il software verrà sviluppato su due sistemi operativi, ovvero:
+
+-MacOS 15.0 Sequoia
+-Windows 11
 
 ## 12. Budget e programma
 
