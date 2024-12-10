@@ -54,6 +54,8 @@ Content for conclusion...
 
 ## 5. Attività di gestione
 
+
+
 ## 6. Rischi
 
 Nello sviluppo del software si potrebbero verificare diversi rischi, di seguito elencati:
@@ -74,7 +76,22 @@ Di seguito i membri:
 - Francesco Pezzotta
 
 ## 8. Metodi e tecniche
-  
+
+1.	Identificazione dei requisiti:
+   	•	Raccolta delle richieste e analisi del problema, brainstorming.
+	•	Scomposizione del problema generale in sotto-problemi più piccoli e affrontabili singolarmente.
+3.	Documentazione:
+	•	Ogni requisito sarà descritto in un documento di Specifica Requisiti, specificando:
+	•	Obiettivo del requisito
+	•	Priorità (critico, necessario, opzionale)
+	•	Criteri di accettazione
+	•	Tracciabilità (collegamento tra requisito e funzionalità corrispondente)
+4.	Analisi di fattibilità:
+	•	Controllo della fattibilità tecnica e delle risorse necessarie per la realizzazione di ciascun requisito.
+	•	Definizione di eventuali compromessi o alternative in caso di difficoltà tecniche.
+5.	Revisione e convalida:
+	•	Sessioni di revisione con i membri del gruppo per garantire la chiarezza e la coerenza dei requisiti.
+	•	Aggiornamento del documento di requisiti per includere eventuali modifiche o nuovi requisiti emersi.
 
 ## 9. Garanzia di qualità
 
@@ -119,16 +136,16 @@ Fasi principali dello sviluppo:
 
 1.	Pianificazione del ciclo:
 	-	Definizione delle funzionalità da sviluppare in ogni ciclo.
-	-	Assegnazione delle attività ai membri del team tramite strumenti di gestione.<br>
+	-	Assegnazione delle attività ai membri del team tramite strumenti di gestione.
 2.	Scrittura del codice:
-	-	Implementazione del codice seguendo le best practice di programmazione.<br>
-	-	Revisione del codice (code review) tra i membri del team per ridurre il rischio di errori e migliorare la qualità.<br>
+	-	Implementazione del codice seguendo le best practice di programmazione.
+	-	Revisione del codice (code review) tra i membri del team per ridurre il rischio di errori e migliorare la qualità.
 3.	Testing iniziale:
-	-	Esecuzione di test manuali e test automatici (unit test) per identificare errori durante la scrittura del codice.<br>
-	-	Uso di framework di testing (come JUnit) per i test automatici.<br>
+	-	Esecuzione di test manuali e test automatici (unit test) per identificare errori durante la scrittura del codice.
+	-	Uso di framework di testing (come JUnit) per i test automatici.
 4.	Revisione e correzione:
-	-	Correzione dei bug rilevati durante i test.<br>
-	-	Verifica finale della versione prima di rilasciarla.<br>
+	-	Correzione dei bug rilevati durante i test.
+	-	Verifica finale della versione prima di rilasciarla.
 
 ## 13. Cambiamenti
 
