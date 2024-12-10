@@ -1,9 +1,11 @@
 # UnibgParking
 ## Project Plan
-### Progetto di ingegneria del software
-Ledio Koci 1085165<br>
-Giovanni Nocerino 1086979<br>
-Francesco Pezzotta 1086783<br>
+### Progetto di Ingegneria del Software
+*Ledio Koci 1085165<br>*
+*Giovanni Nocerino 1086979<br>*
+*Francesco Pezzotta 1086783<br>*
+
+a.a 2024-2025
 
 
 ## INDICE
