@@ -9,18 +9,18 @@ Francesco Pezzotta 1086783<br>
 ## INDICE
 1. [Introduzione](#p1)
 2. [Modello di processo](#p2)
-3. [Organizzazione del progetto](#Organizzazione_del_progetto)
-4. [Standard, linee guida, procedure](#Standard,linee_guida,procedure)
-5. [Attività di gestione](#Attività_di_gestione)
-6. [Rischi](#Rischi)
-7. [Personale](#Personale)
-8. [Metodi e tecniche](#Metodi_e_tecniche)
-9. [Garanzia di qualità](#Garanzia_di_qualità)
-10. [Pacchetti di lavoro (workpackages)](#Pacchetti_di_lavoro)
-11. [Risorse](#Risorse)
-12. [Budget e programma](#Budget_e_programma)
-13. [Cambiamenti](#Cambiamenti)
-14. [Consegna](#Consegna)
+3. [Organizzazione del progetto](#p3)
+4. [Standard, linee guida, procedure](#p4)
+5. [Attività di gestione](#p5)
+6. [Rischi](#p6)
+7. [Personale](#p7)
+8. [Metodi e tecniche](#p8)
+9. [Garanzia di qualità](#p9)
+10. [Pacchetti di lavoro (workpackages)](#10)
+11. [Risorse](#11)
+12. [Budget e programma](#p12)
+13. [Cambiamenti](#p13)
+14. [Consegna](#p14)
 
 ## Introduzione <a name="p1"></a>
 
@@ -45,11 +45,11 @@ Obiettivi principali:
 10.	Refactoring (Rifattorizzazione): Processo di miglioramento continuo del progetto, volto a rendere il codice più chiaro, con minori possibilità di errori e riducendo la duplicazione di processi o funzioni.<br>
 11.	Continuous Integration (Integrazione continua): Le nuove funzionalità devono essere rapidamente integrate nella versione attuale del sistema. Questo consente di eseguire test prima possibile, identificando e risolvendo eventuali problemi in tempi rapidi.<br>
 
-## Organizzazione del progetto
+## Organizzazione del progetto <a name="p3"></a>
 
 Ciascun membro del gruppo detiene le medesime responsabilità durante tutte le fasi del progetto (quindi progettazione, sviluppo e test), caratterizzati da ruoli di tipo Agile, in particolare adottando la moddalità *Extreme Programming (XP)*; verranno effetuate delle riunioni in modo tale da poter permettere a tutti e tre i membri di confrontarsi sullo sviluppo del progetto e pianificare i prossimi passi da seguire.
 
-## Standard, linee guida, procedure
+## Standard, linee guida, procedure <a name="p4"></a>
 
 ### Standard
 
@@ -58,7 +58,7 @@ Gli standard definiscono i criteri di qualità e conformità che verranno applic
 -	Standard di codifica Java: Il codice sorgente seguirà le convenzioni di codifica Java riconosciute a livello internazionale, garantendo leggibilità, mantenibilità e coerenza del codice.
 -	Standard di progettazione UML: Verranno utilizzati i diagrammi UML (Unified Modeling Language) per la modellazione del sistema. I diagrammi includeranno diagrammi dei casi d’uso, diagrammi di sequenza, diagrammi delle classi e altri.
 
-### Linee Guida
+### Linee Guida 
 
 Le linee guida definiscono le buone pratiche che il team seguirà per raggiungere gli obiettivi in modo efficace.
 -	Documentazione dei requisiti: Tutti i requisiti verranno descritti in linguaggio naturale, evitando ambiguità e tecnicismi inutili, come suggerito dallo standard IEEE 830. Sarà utilizzato un formato standard con sezioni dedicate a descrizione, priorità, tracciabilità e criteri di accettazione.
@@ -92,11 +92,11 @@ Le procedure descrivono le azioni pratiche e i passaggi da seguire per eseguire 
 	•	Controllo di qualità e revisione del codice:
 	•	Sarà adottata una pratica di code review, dove il codice scritto da uno sviluppatore verrà rivisto da un altro membro del team prima di essere accettato nel ramo principale (main branch).
 
-## Attività di gestione
+## Attività di gestione <a name="p5"></a>
 
 
 
-## Rischi
+## Rischi <a name="p6"></a>
 
 Nello sviluppo del software si potrebbero verificare diversi rischi, di seguito elencati:
 
@@ -105,7 +105,7 @@ Nello sviluppo del software si potrebbero verificare diversi rischi, di seguito 
 3. Assenza di un membro del team per svariate cause: sarà necessario pianificare il lavoro in modo flessibile cosicchè tale che tutti i membri del team possano contribuire allo sviluppo del software alla stessa maniera.
 4. Bug non individuati durante il testing: Implementare più casi di test possibili in modo tale da avere una copertura sufficiente.
 
-## Personale
+## Personale <a name="p7"></a>
 
 ### Vedi capitolo 3.
 
@@ -115,7 +115,7 @@ Di seguito i membri:
 - Giovanni Nocerino
 - Francesco Pezzotta
 
-## Metodi e tecniche
+## Metodi e tecniche <a name="p8"></a>
 
 1.	Identificazione dei requisiti:
 -	Raccolta delle richieste e analisi del problema, brainstorming.
@@ -133,7 +133,7 @@ Di seguito i membri:
 -	 Sessioni di revisione con i membri del gruppo per garantire la chiarezza e la coerenza dei requisiti.
 -	 Aggiornamento del documento di requisiti per includere eventuali modifiche o nuovi requisiti emersi.
 
-## Garanzia di qualità
+## Garanzia di qualità <a name="p9"></a>
 
 La qualità del prodotto sarà garantita tramite controlli regolari e misurazioni oggettive. Verranno utilizzate metriche per valutare la qualità del codice e la soddisfazione dei requisiti.
 
@@ -148,9 +148,9 @@ Tecniche di controllo della qualità:
 Strumenti utilizzati:
 -	Strumenti di gestione delle metriche di qualità (GitHub ecc.) per il monitoraggio continuo.<br>
 
-## Pacchetti di lavoro (workpackages)
+## Pacchetti di lavoro (workpackages) <a name="p10"></a>
 
-## Risorse
+## Risorse <a name="p11"></a>
 
 Risorse umane:
 Vedi capitolo 3 e 7.
@@ -166,7 +166,7 @@ Per quanto riguarda i dispositivi, il software verrà sviluppato su due sistemi 
 -MacOS 15.0 Sequoia<br>
 -Windows 11<br>
 
-## Budget e programma
+## Budget e programma <a name="p12"></a>
 
 Non è previsto alcun budget per lo sviluppo di questo progetto.
 
@@ -187,10 +187,10 @@ Fasi principali dello sviluppo:
 -	Correzione dei bug rilevati durante i test.
 -	Verifica finale della versione prima di rilasciarla.
 
-## Cambiamenti
+## Cambiamenti <a name="p13"></a>
 
 La possibilità di incorrere in cambiamenti imprevisti è possibile, in quanto i rischi (come citato nel capitolo 6 "Rischi") sono pressochè inevitabili. Per questo motivo sarà fondamentale adottare la metodologia *Extreme Programming* al meglio (vedi capitolo 2 e 3).
 
-## Consegna
+## Consegna <a name="p14"></a>
 
 Il progetto con relativa documentazione verrà condiviso su GitHub rispettivamente con il Prof. Gargantini e Prof.ssa Bonfanti.
