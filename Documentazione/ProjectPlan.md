@@ -88,8 +88,8 @@ Tecniche di controllo della qualità:
 -	Numero di bug rilevati e tempo medio di risoluzione.<br>
 -	Complessità ciclomatica per misurare la complessità dei metodi.<br>
 
-Strumenti utilizzati:<br>
-	-	Strumenti di gestione delle metriche di qualità (GitHub ecc.) per il monitoraggio continuo.<br>
+Strumenti utilizzati:
+-	Strumenti di gestione delle metriche di qualità (GitHub ecc.) per il monitoraggio continuo.<br>
 
 ## 10. Pacchetti di lavoro (workpackages)
 
@@ -118,7 +118,7 @@ L’implementazione sarà organizzata in cicli iterativi per garantire un rilasc
 Fasi principali dello sviluppo:
 
 1.	Pianificazione del ciclo:
-	-	Definizione delle funzionalità da sviluppare in ogni ciclo.<br>
+	-	Definizione delle funzionalità da sviluppare in ogni ciclo.
 	-	Assegnazione delle attività ai membri del team tramite strumenti di gestione.<br>
 2.	Scrittura del codice:
 	-	Implementazione del codice seguendo le best practice di programmazione.<br>
