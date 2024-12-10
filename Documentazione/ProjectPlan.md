@@ -26,10 +26,10 @@ Francesco Pezzotta 1086783<br>
 
 ### Il progetto mira a sviluppare un sistema per ottimizzare la gestione dei parcheggi dell'università, ridurre i tempi di ricerca e migliorare l’esperienza utente.
 
-Obiettivi principali:<br>
-	- Ottimizzazione degli spazi disponibili.<br>
-	- Pagamenti digitali per visitatori occasionali.<br>
-	- Sensori e QRCode per il monitoraggio automatizzato.<br>
+Obiettivi principali:
+- Ottimizzazione degli spazi disponibili.<br>
+- Pagamenti digitali per visitatori occasionali.<br>
+- Sensori e QRCode per il monitoraggio automatizzato.<br>
 
 ## 2. Modello di processo
 
@@ -47,7 +47,7 @@ Obiettivi principali:<br>
 
 ## 3. Organizzazione del progetto
 
-Ciascun membro del gruppo detiene le medesime responsabilità durante tutte le fasi del progetto (quindi progettazione, sviluppo e test), adottando ruoli di tipo Agile, in particolare Extreme Programming (XP); verranno effetuate delle riunioni in modo tale da poter permettere a tutti e tre i membri di confrontarsi sullo sviluppo del progetto e pianificare i prossimi passi da seguire.
+Ciascun membro del gruppo detiene le medesime responsabilità durante tutte le fasi del progetto (quindi progettazione, sviluppo e test), caratterizzati da ruoli di tipo Agile, in particolare adottando la moddalità *Extreme Programming (XP)*; verranno effetuate delle riunioni in modo tale da poter permettere a tutti e tre i membri di confrontarsi sullo sviluppo del progetto e pianificare i prossimi passi da seguire.
 
 ## 4. Standard, linee guida, procedure
 
@@ -55,26 +55,25 @@ Ciascun membro del gruppo detiene le medesime responsabilità durante tutte le f
 
 Gli standard definiscono i criteri di qualità e conformità che verranno applicati durante il progetto.
 -	IEEE 830: Lo standard IEEE 830 sarà utilizzato per la stesura e la gestione dei requisiti software. Questo standard garantisce che i requisiti siano completi, coerenti, tracciabili e comprensibili da tutte le parti coinvolte. Ogni requisito sarà classificato in base a criteri di priorità e descritto in modo chiaro e misurabile.
--	Standard di codifica Java: Il codice sorgente seguirà le convenzioni di codifica Java riconosciute a livello internazionale (ad esempio, Oracle Java Coding Conventions), garantendo leggibilità, mantenibilità e coerenza del codice. Saranno utilizzati strumenti di analisi statica del codice (come Checkstyle o SonarQube) per verificare la conformità agli standard di codifica.
--	Standard di progettazione UML: Verranno utilizzati i diagrammi UML (Unified Modeling Language) per la modellazione del sistema. I diagrammi includeranno diagrammi dei casi d’uso, diagrammi di sequenza, diagrammi delle classi e altri, in base alle necessità progettuali. Questi diagrammi saranno conformi agli standard di rappresentazione UML 2.x per garantire chiarezza e coerenza.
+-	Standard di codifica Java: Il codice sorgente seguirà le convenzioni di codifica Java riconosciute a livello internazionale, garantendo leggibilità, mantenibilità e coerenza del codice.
+-	Standard di progettazione UML: Verranno utilizzati i diagrammi UML (Unified Modeling Language) per la modellazione del sistema. I diagrammi includeranno diagrammi dei casi d’uso, diagrammi di sequenza, diagrammi delle classi e altri.
 
 ### Linee Guida
 
 Le linee guida definiscono le buone pratiche che il team seguirà per raggiungere gli obiettivi in modo efficace.
 -	Documentazione dei requisiti: Tutti i requisiti verranno descritti in linguaggio naturale, evitando ambiguità e tecnicismi inutili, come suggerito dallo standard IEEE 830. Sarà utilizzato un formato standard con sezioni dedicate a descrizione, priorità, tracciabilità e criteri di accettazione.
 -	Principio DRY (Don’t Repeat Yourself): Durante la scrittura del codice, verrà rispettato il principio DRY per evitare ridondanza e promuovere il riutilizzo del codice.
--	Gestione della configurazione: Verrà utilizzato un sistema di versionamento del codice (Git), con convenzioni per la nomenclatura dei branch e delle commit (es. feature/, bugfix/, hotfix/). Ogni modifica sarà associata a uno specifico requisito o user story.
--	Buone pratiche di testing: Il testing verrà integrato nel ciclo di sviluppo iterativo. Saranno eseguiti test unitari, di integrazione e di accettazione. Sarà seguita la regola del “test-first” tipica di Extreme Programming (XP).
--	Comunicazione interna: Saranno previsti incontri giornalieri (daily stand-up) per aggiornare il team sull’avanzamento dei lavori, evidenziare eventuali blocchi e pianificare le attività future.
+-	Gestione della configurazione: Verrà utilizzato un sistema di versionamento del codice (Git).
+-	Buone pratiche di testing: Il testing verrà integrato nel ciclo di sviluppo iterativo. Saranno eseguiti test unitari e sarà seguita la regola del “test-first” tipica di Extreme Programming (XP).
+-	Comunicazione interna: Saranno previsti incontri per aggiornare il team sull’avanzamento dei lavori, evidenziare eventuali blocchi e pianificare le attività future.
 
 ### Procedure
 
 Le procedure descrivono le azioni pratiche e i passaggi da seguire per eseguire correttamente le fasi del progetto.
 -	Gestione dei requisiti (IEEE 830 e MoSCoW):
-- 	 I requisiti saranno raccolti tramite interviste e workshop con gli stakeholder.
 - 	 Ogni requisito sarà categorizzato utilizzando il metodo MoSCoW (Must have, Should have, Could have, Won’t have) per stabilire le priorità.
 - requisiti saranno tracciati nel documento di specifica, e le modifiche saranno approvate in modo formale durante le revisioni di progetto.
--  viluppo (Extreme Programming - XP):
+-  sviluppo (Extreme Programming - XP):
 - 	Verrà utilizzato un approccio iterativo e incrementale. Ogni ciclo di sviluppo si concluderà con il rilascio di una versione funzionante del software.
 -	Verranno seguiti i principi di pair programming (due sviluppatori lavorano insieme sullo stesso codice) e test-driven development (TDD), in cui i test vengono scritti prima del codice.
 -	Alla fine di ogni iterazione, il team analizzerà i risultati e pianificherà il ciclo successivo.
@@ -89,11 +88,9 @@ Le procedure descrivono le azioni pratiche e i passaggi da seguire per eseguire 
 	2.	Sviluppo della funzionalità corrispondente
 	3.	Esecuzione dei test e analisi dei risultati
 	4.	Correzione degli errori e re-test
-	•	Saranno condotti test di accettazione con gli stakeholder prima di ogni rilascio importante.
+	•	Saranno condotti test di accettazione prima di ogni rilascio importante.
 	•	Controllo di qualità e revisione del codice:
-	•	Sarà adottata una pratica di code review obbligatoria, dove il codice scritto da uno sviluppatore verrà rivisto da un altro membro del team prima di essere accettato nel ramo principale (main branch).
--	Le pull request saranno sottoposte a un processo di validazione, e sarà necessario un approvazione prima del merge.
--	L’uso di strumenti di analisi statica (come SonarQube) garantirà che il codice rispetti le convenzioni di qualità e sicurezza.
+	•	Sarà adottata una pratica di code review, dove il codice scritto da uno sviluppatore verrà rivisto da un altro membro del team prima di essere accettato nel ramo principale (main branch).
 
 ## 5. Attività di gestione
 
@@ -192,7 +189,7 @@ Fasi principali dello sviluppo:
 
 ## 13. Cambiamenti
 
-La possibilità di incorrere in cambiamenti imprevisti è possibile, in quanto i rischi (come citato nel capitolo 6 "Rischi") sono pressochè inevitabili. Per questo motivo sarà fondamentale adottare la metodologia Extreme Programming al meglio (vedi capitolo 2 e 3).
+La possibilità di incorrere in cambiamenti imprevisti è possibile, in quanto i rischi (come citato nel capitolo 6 "Rischi") sono pressochè inevitabili. Per questo motivo sarà fondamentale adottare la metodologia *Extreme Programming* al meglio (vedi capitolo 2 e 3).
 
 ## 14. Consegna
 
