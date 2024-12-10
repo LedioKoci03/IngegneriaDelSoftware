@@ -22,7 +22,7 @@ Francesco Pezzotta 1086783<br>
 13. [Cambiamenti](#Cambiamenti)
 14. [Consegna](#Consegna)
 
-## 1. Introduzione
+## Introduzione
 
 ### Il progetto mira a sviluppare un sistema per ottimizzare la gestione dei parcheggi dell'università, ridurre i tempi di ricerca e migliorare l’esperienza utente.
 
@@ -31,7 +31,7 @@ Obiettivi principali:
 - Pagamenti digitali per visitatori occasionali.<br>
 - Sensori e QRCode per il monitoraggio automatizzato.<br>
 
-## 2. Modello di processo
+## Modello di processo
 
 1.	Planning Game: All’inizio della settimana, il team si riunisce per elencare le funzionalità più importanti e chiarire le aspettative e le necessità legate al progetto. In questa fase, si definisce l’ambito del progetto (che rimane sempre flessibile).<br>
 2.	Small Releases or Deliveries (Rilasci o consegne frequenti): Alla fine di ogni settimana, si ricevono piccole versioni del progetto da testare e su cui fornire feedback o suggerimenti di miglioramento.<br>
@@ -45,11 +45,11 @@ Obiettivi principali:
 10.	Refactoring (Rifattorizzazione): Processo di miglioramento continuo del progetto, volto a rendere il codice più chiaro, con minori possibilità di errori e riducendo la duplicazione di processi o funzioni.<br>
 11.	Continuous Integration (Integrazione continua): Le nuove funzionalità devono essere rapidamente integrate nella versione attuale del sistema. Questo consente di eseguire test prima possibile, identificando e risolvendo eventuali problemi in tempi rapidi.<br>
 
-## 3. Organizzazione del progetto
+## Organizzazione del progetto
 
 Ciascun membro del gruppo detiene le medesime responsabilità durante tutte le fasi del progetto (quindi progettazione, sviluppo e test), caratterizzati da ruoli di tipo Agile, in particolare adottando la moddalità *Extreme Programming (XP)*; verranno effetuate delle riunioni in modo tale da poter permettere a tutti e tre i membri di confrontarsi sullo sviluppo del progetto e pianificare i prossimi passi da seguire.
 
-## 4. Standard, linee guida, procedure
+## Standard, linee guida, procedure
 
 ### Standard
 
@@ -92,11 +92,11 @@ Le procedure descrivono le azioni pratiche e i passaggi da seguire per eseguire 
 	•	Controllo di qualità e revisione del codice:
 	•	Sarà adottata una pratica di code review, dove il codice scritto da uno sviluppatore verrà rivisto da un altro membro del team prima di essere accettato nel ramo principale (main branch).
 
-## 5. Attività di gestione
+## Attività di gestione
 
 
 
-## 6. Rischi
+## Rischi
 
 Nello sviluppo del software si potrebbero verificare diversi rischi, di seguito elencati:
 
@@ -105,7 +105,7 @@ Nello sviluppo del software si potrebbero verificare diversi rischi, di seguito 
 3. Assenza di un membro del team per svariate cause: sarà necessario pianificare il lavoro in modo flessibile cosicchè tale che tutti i membri del team possano contribuire allo sviluppo del software alla stessa maniera.
 4. Bug non individuati durante il testing: Implementare più casi di test possibili in modo tale da avere una copertura sufficiente.
 
-## 7. Personale
+## Personale
 
 ### Vedi capitolo 3.
 
@@ -115,7 +115,7 @@ Di seguito i membri:
 - Giovanni Nocerino
 - Francesco Pezzotta
 
-## 8. Metodi e tecniche
+## Metodi e tecniche
 
 1.	Identificazione dei requisiti:
 -	Raccolta delle richieste e analisi del problema, brainstorming.
@@ -133,7 +133,7 @@ Di seguito i membri:
 -	 Sessioni di revisione con i membri del gruppo per garantire la chiarezza e la coerenza dei requisiti.
 -	 Aggiornamento del documento di requisiti per includere eventuali modifiche o nuovi requisiti emersi.
 
-## 9. Garanzia di qualità
+## Garanzia di qualità
 
 La qualità del prodotto sarà garantita tramite controlli regolari e misurazioni oggettive. Verranno utilizzate metriche per valutare la qualità del codice e la soddisfazione dei requisiti.
 
@@ -148,9 +148,9 @@ Tecniche di controllo della qualità:
 Strumenti utilizzati:
 -	Strumenti di gestione delle metriche di qualità (GitHub ecc.) per il monitoraggio continuo.<br>
 
-## 10. Pacchetti di lavoro (workpackages)
+## Pacchetti di lavoro (workpackages)
 
-## 11. Risorse
+## Risorse
 
 Risorse umane:
 Vedi capitolo 3 e 7.
@@ -166,7 +166,7 @@ Per quanto riguarda i dispositivi, il software verrà sviluppato su due sistemi 
 -MacOS 15.0 Sequoia<br>
 -Windows 11<br>
 
-## 12. Budget e programma
+## Budget e programma
 
 Non è previsto alcun budget per lo sviluppo di questo progetto.
 
@@ -187,10 +187,10 @@ Fasi principali dello sviluppo:
 -	Correzione dei bug rilevati durante i test.
 -	Verifica finale della versione prima di rilasciarla.
 
-## 13. Cambiamenti
+## Cambiamenti
 
 La possibilità di incorrere in cambiamenti imprevisti è possibile, in quanto i rischi (come citato nel capitolo 6 "Rischi") sono pressochè inevitabili. Per questo motivo sarà fondamentale adottare la metodologia *Extreme Programming* al meglio (vedi capitolo 2 e 3).
 
-## 14. Consegna
+## Consegna
 
 Il progetto con relativa documentazione verrà condiviso su GitHub rispettivamente con il Prof. Gargantini e Prof.ssa Bonfanti.
