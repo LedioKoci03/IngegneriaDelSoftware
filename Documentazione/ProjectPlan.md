@@ -50,7 +50,13 @@ Obiettivi principali:<br>
 Ciascun membro del gruppo detiene le medesime responsabilità durante tutte le fasi del progetto (quindi progettazione, sviluppo e test), adottando ruoli di tipo Agile, in particolare Extreme Programming (XP); verranno effetuate delle riunioni in modo tale da poter permettere a tutti e tre i membri di confrontarsi sullo sviluppo del progetto e pianificare i prossimi passi da seguire.
 
 ## 4. Standard, linee guida, procedure
-Content for conclusion...
+
+Standard
+
+Gli standard definiscono i criteri di qualità e conformità che verranno applicati durante il progetto.
+-	IEEE 830: Lo standard IEEE 830 sarà utilizzato per la stesura e la gestione dei requisiti software. Questo standard garantisce che i requisiti siano completi, coerenti, tracciabili e comprensibili da tutte le parti coinvolte. Ogni requisito sarà classificato in base a criteri di priorità e descritto in modo chiaro e misurabile.
+-	Standard di codifica Java: Il codice sorgente seguirà le convenzioni di codifica Java riconosciute a livello internazionale (ad esempio, Oracle Java Coding Conventions), garantendo leggibilità, mantenibilità e coerenza del codice. Saranno utilizzati strumenti di analisi statica del codice (come Checkstyle o SonarQube) per verificare la conformità agli standard di codifica.
+-	Standard di progettazione UML: Verranno utilizzati i diagrammi UML (Unified Modeling Language) per la modellazione del sistema. I diagrammi includeranno diagrammi dei casi d’uso, diagrammi di sequenza, diagrammi delle classi e altri, in base alle necessità progettuali. Questi diagrammi saranno conformi agli standard di rappresentazione UML 2.x per garantire chiarezza e coerenza.
 
 ## 5. Attività di gestione
 
@@ -83,7 +89,7 @@ Di seguito i membri:
 2.	Documentazione:
 -	 Ogni requisito sarà descritto in un documento di Specifica Requisiti, specificando:
 -	 Obiettivo del requisito
--	 Priorità (critico, necessario, opzionale)
+-	 Priorità (critico, necessario, opzionale, vedi regole MoSCoW capitolo 4)
 -	 Criteri di accettazione
 -	 Tracciabilità (collegamento tra requisito e funzionalità corrispondente)
 3.	Analisi di fattibilità:
