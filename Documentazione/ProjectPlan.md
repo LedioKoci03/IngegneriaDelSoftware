@@ -135,17 +135,17 @@ L’implementazione sarà organizzata in cicli iterativi per garantire un rilasc
 Fasi principali dello sviluppo:
 
 1.	Pianificazione del ciclo:
-	-	Definizione delle funzionalità da sviluppare in ogni ciclo.
-	-	Assegnazione delle attività ai membri del team tramite strumenti di gestione.
+-	Definizione delle funzionalità da sviluppare in ogni ciclo.
+-	Assegnazione delle attività ai membri del team tramite strumenti di gestione.
 2.	Scrittura del codice:
-	-	Implementazione del codice seguendo le best practice di programmazione.
-	-	Revisione del codice (code review) tra i membri del team per ridurre il rischio di errori e migliorare la qualità.
+-	Implementazione del codice seguendo le best practice di programmazione.
+-	Revisione del codice (code review) tra i membri del team per ridurre il rischio di errori e migliorare la qualità.
 3.	Testing iniziale:
-	-	Esecuzione di test manuali e test automatici (unit test) per identificare errori durante la scrittura del codice.
-	-	Uso di framework di testing (come JUnit) per i test automatici.
+-	Esecuzione di test manuali e test automatici (unit test) per identificare errori durante la scrittura del codice.
+-	Uso di framework di testing (come JUnit) per i test automatici.
 4.	Revisione e correzione:
-	-	Correzione dei bug rilevati durante i test.
-	-	Verifica finale della versione prima di rilasciarla.
+-	Correzione dei bug rilevati durante i test.
+-	Verifica finale della versione prima di rilasciarla.
 
 ## 13. Cambiamenti
 
