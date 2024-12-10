@@ -9,7 +9,7 @@ Francesco Pezzotta 1086783<br>
 ## INDICE
 1. [Introduzione](#introduzione)
 2. [Modello di processo](#Modello_di_processo)
-3. [Organizzazione del processo](#Organizzazione_del_processo)
+3. [Organizzazione del progetto](#Organizzazione_del_progetto)
 4. [Standard, linee guida, procedure](#Standard,linee_guida,procedure)
 5. [Attività di gestione](#Attività_di_gestione)
 6. [Rischi](#Rischi)
@@ -45,7 +45,7 @@ Obiettivi principali:<br>
 10.	Refactoring (Rifattorizzazione): Processo di miglioramento continuo del progetto, volto a rendere il codice più chiaro, con minori possibilità di errori e riducendo la duplicazione di processi o funzioni.<br>
 11.	Continuous Integration (Integrazione continua): Le nuove funzionalità devono essere rapidamente integrate nella versione attuale del sistema. Questo consente di eseguire test prima possibile, identificando e risolvendo eventuali problemi in tempi rapidi.<br>
 
-## 3. Organizzazione del processo
+## 3. Organizzazione del progetto
 
 Ciascun membro del gruppo detiene le medesime responsabilità durante tutte le fasi del progetto (quindi progettazione, sviluppo e test), adottando ruoli di tipo Agile, in particolare Extreme Programming (XP); verranno effetuate delle riunioni in modo tale da poter permettere a tutti e tre i membri di confrontarsi sullo sviluppo del progetto e pianificare i prossimi passi da seguire.
 
