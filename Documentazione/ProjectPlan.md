@@ -7,7 +7,7 @@ Francesco Pezzotta 1086783<br>
 
 
 ## INDICE
-1. [Introduzione](#introduzione)
+1. [Introduzione](#p1)
 2. [Modello di processo](#Modello_di_processo)
 3. [Organizzazione del progetto](#Organizzazione_del_progetto)
 4. [Standard, linee guida, procedure](#Standard,linee_guida,procedure)
@@ -22,7 +22,7 @@ Francesco Pezzotta 1086783<br>
 13. [Cambiamenti](#Cambiamenti)
 14. [Consegna](#Consegna)
 
-## Introduzione
+## Introduzione <a name="p1"></a>
 
 ### Il progetto mira a sviluppare un sistema per ottimizzare la gestione dei parcheggi dell'università, ridurre i tempi di ricerca e migliorare l’esperienza utente.
 
@@ -31,7 +31,7 @@ Obiettivi principali:
 - Pagamenti digitali per visitatori occasionali.<br>
 - Sensori e QRCode per il monitoraggio automatizzato.<br>
 
-## Modello di processo
+## Modello di processo  <a name="paragraph1"></a>
 
 1.	Planning Game: All’inizio della settimana, il team si riunisce per elencare le funzionalità più importanti e chiarire le aspettative e le necessità legate al progetto. In questa fase, si definisce l’ambito del progetto (che rimane sempre flessibile).<br>
 2.	Small Releases or Deliveries (Rilasci o consegne frequenti): Alla fine di ogni settimana, si ricevono piccole versioni del progetto da testare e su cui fornire feedback o suggerimenti di miglioramento.<br>
