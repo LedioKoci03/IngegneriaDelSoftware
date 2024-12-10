@@ -80,18 +80,18 @@ Di seguito i membri:
 1.	Identificazione dei requisiti:
 -	Raccolta delle richieste e analisi del problema, brainstorming.
 - 	Scomposizione del problema generale in sotto-problemi più piccoli e affrontabili singolarmente.
-3.	Documentazione:
-	•	Ogni requisito sarà descritto in un documento di Specifica Requisiti, specificando:
-	•	Obiettivo del requisito
-	•	Priorità (critico, necessario, opzionale)
-	•	Criteri di accettazione
-	•	Tracciabilità (collegamento tra requisito e funzionalità corrispondente)
-4.	Analisi di fattibilità:
-	•	Controllo della fattibilità tecnica e delle risorse necessarie per la realizzazione di ciascun requisito.
-	•	Definizione di eventuali compromessi o alternative in caso di difficoltà tecniche.
-5.	Revisione e convalida:
-	•	Sessioni di revisione con i membri del gruppo per garantire la chiarezza e la coerenza dei requisiti.
-	•	Aggiornamento del documento di requisiti per includere eventuali modifiche o nuovi requisiti emersi.
+2.	Documentazione:
+-	 Ogni requisito sarà descritto in un documento di Specifica Requisiti, specificando:
+-	 Obiettivo del requisito
+-	 Priorità (critico, necessario, opzionale)
+-	 Criteri di accettazione
+-	 Tracciabilità (collegamento tra requisito e funzionalità corrispondente)
+3.	Analisi di fattibilità:
+-	 Controllo della fattibilità tecnica e delle risorse necessarie per la realizzazione di ciascun requisito.
+-	 Definizione di eventuali compromessi o alternative in caso di difficoltà tecniche.
+4.	Revisione e convalida:
+-	 Sessioni di revisione con i membri del gruppo per garantire la chiarezza e la coerenza dei requisiti.
+-	 Aggiornamento del documento di requisiti per includere eventuali modifiche o nuovi requisiti emersi.
 
 ## 9. Garanzia di qualità
 
