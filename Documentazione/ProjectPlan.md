@@ -27,9 +27,9 @@ Francesco Pezzotta 1086783<br>
 ### Il progetto mira a sviluppare un sistema per ottimizzare la gestione dei parcheggi dell'università, ridurre i tempi di ricerca e migliorare l’esperienza utente.
 
 Obiettivi principali:<br>
-	- Ottimizzazione degli spazi disponibili.
-	- Pagamenti digitali per visitatori occasionali.
-	- Sensori e QRCode per il monitoraggio automatizzato.
+	- Ottimizzazione degli spazi disponibili.<br>
+	- Pagamenti digitali per visitatori occasionali.<br>
+	- Sensori e QRCode per il monitoraggio automatizzato.<br>
 
 ## 2. Modello di processo
 
