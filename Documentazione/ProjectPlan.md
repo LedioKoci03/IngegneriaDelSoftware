@@ -81,14 +81,14 @@ Di seguito i membri:
 La qualità del prodotto sarà garantita tramite controlli regolari e misurazioni oggettive. Verranno utilizzate metriche per valutare la qualità del codice e la soddisfazione dei requisiti.
 
 Tecniche di controllo della qualità:<br>
-	•	Code Review: ogni modifica sarà sottoposta a revisione tra i membri del team.<br>
-	•	Misurazione delle metriche di qualità:<br>
-		•	Copertura del codice (percentuale di righe coperte dai test).<br>
-		•	Numero di bug rilevati e tempo medio di risoluzione.<br>
-		•	Complessità ciclomatica per misurare la complessità dei metodi.<br>
+	-	Code Review: ogni modifica sarà sottoposta a revisione tra i membri del team.<br>
+	-	Misurazione delle metriche di qualità:<br>
+		-	Copertura del codice (percentuale di righe coperte dai test).<br>
+		-	Numero di bug rilevati e tempo medio di risoluzione.<br>
+		-	Complessità ciclomatica per misurare la complessità dei metodi.<br>
 
 Strumenti utilizzati:<br>
-	•	Strumenti di gestione delle metriche di qualità (GitHub ecc.) per il monitoraggio continuo.<br>
+	-	Strumenti di gestione delle metriche di qualità (GitHub ecc.) per il monitoraggio continuo.<br>
 
 ## 10. Pacchetti di lavoro (workpackages)
 
@@ -116,17 +116,17 @@ L’implementazione sarà organizzata in cicli iterativi per garantire un rilasc
 
 Fasi principali dello sviluppo:<br>
 	1.	Pianificazione del ciclo:<br>
-		•	Definizione delle funzionalità da sviluppare in ogni ciclo.<br>
-		•	Assegnazione delle attività ai membri del team tramite strumenti di gestione.<br>
+		-	Definizione delle funzionalità da sviluppare in ogni ciclo.<br>
+		-	Assegnazione delle attività ai membri del team tramite strumenti di gestione.<br>
 	2.	Scrittura del codice:<br>
-		•	Implementazione del codice seguendo le best practice di programmazione.<br>
-		•	Revisione del codice (code review) tra i membri del team per ridurre il rischio di errori e migliorare la qualità.<br>
+		-	Implementazione del codice seguendo le best practice di programmazione.<br>
+		-	Revisione del codice (code review) tra i membri del team per ridurre il rischio di errori e migliorare la qualità.<br>
 	3.	Testing iniziale:<br>
-		•	Esecuzione di test manuali e test automatici (unit test) per identificare errori durante la scrittura del codice.<br>
-		•	Uso di framework di testing (come JUnit) per i test automatici.<br>
+		-	Esecuzione di test manuali e test automatici (unit test) per identificare errori durante la scrittura del codice.<br>
+		-	Uso di framework di testing (come JUnit) per i test automatici.<br>
 	4.	Revisione e correzione:<br>
-		•	Correzione dei bug rilevati durante i test.<br>
-		•	Verifica finale della versione prima di rilasciarla.<br>
+		-	Correzione dei bug rilevati durante i test.<br>
+		-	Verifica finale della versione prima di rilasciarla.<br>
 
 ## 13. Cambiamenti
 
