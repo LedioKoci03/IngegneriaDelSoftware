@@ -51,12 +51,49 @@ Ciascun membro del gruppo detiene le medesime responsabilità durante tutte le f
 
 ## 4. Standard, linee guida, procedure
 
-Standard
+# Standard
 
 Gli standard definiscono i criteri di qualità e conformità che verranno applicati durante il progetto.
 -	IEEE 830: Lo standard IEEE 830 sarà utilizzato per la stesura e la gestione dei requisiti software. Questo standard garantisce che i requisiti siano completi, coerenti, tracciabili e comprensibili da tutte le parti coinvolte. Ogni requisito sarà classificato in base a criteri di priorità e descritto in modo chiaro e misurabile.
 -	Standard di codifica Java: Il codice sorgente seguirà le convenzioni di codifica Java riconosciute a livello internazionale (ad esempio, Oracle Java Coding Conventions), garantendo leggibilità, mantenibilità e coerenza del codice. Saranno utilizzati strumenti di analisi statica del codice (come Checkstyle o SonarQube) per verificare la conformità agli standard di codifica.
 -	Standard di progettazione UML: Verranno utilizzati i diagrammi UML (Unified Modeling Language) per la modellazione del sistema. I diagrammi includeranno diagrammi dei casi d’uso, diagrammi di sequenza, diagrammi delle classi e altri, in base alle necessità progettuali. Questi diagrammi saranno conformi agli standard di rappresentazione UML 2.x per garantire chiarezza e coerenza.
+
+# Linee Guida
+
+Le linee guida definiscono le buone pratiche che il team seguirà per raggiungere gli obiettivi in modo efficace.
+-	Documentazione dei requisiti: Tutti i requisiti verranno descritti in linguaggio naturale, evitando ambiguità e tecnicismi inutili, come suggerito dallo standard IEEE 830. Sarà utilizzato un formato standard con sezioni dedicate a descrizione, priorità, tracciabilità e criteri di accettazione.
+-	Principio DRY (Don’t Repeat Yourself): Durante la scrittura del codice, verrà rispettato il principio DRY per evitare ridondanza e promuovere il riutilizzo del codice.
+-	Gestione della configurazione: Verrà utilizzato un sistema di versionamento del codice (Git), con convenzioni per la nomenclatura dei branch e delle commit (es. feature/, bugfix/, hotfix/). Ogni modifica sarà associata a uno specifico requisito o user story.
+-	Buone pratiche di testing: Il testing verrà integrato nel ciclo di sviluppo iterativo. Saranno eseguiti test unitari, di integrazione e di accettazione. Sarà seguita la regola del “test-first” tipica di Extreme Programming (XP).
+-	Comunicazione interna: Saranno previsti incontri giornalieri (daily stand-up) per aggiornare il team sull’avanzamento dei lavori, evidenziare eventuali blocchi e pianificare le attività future.
+
+# Procedure
+
+Le procedure descrivono le azioni pratiche e i passaggi da seguire per eseguire correttamente le fasi del progetto.
+-	Gestione dei requisiti (IEEE 830 e MoSCoW):
+- 	 I requisiti saranno raccolti tramite interviste e workshop con gli stakeholder.
+- 	 Ogni requisito sarà categorizzato utilizzando il metodo MoSCoW (Must have, Should have, Could have, Won’t have) per stabilire le priorità.
+- requisiti saranno tracciati nel documento di specifica, e le modifiche saranno approvate in modo formale durante le revisioni di progetto.
+-  viluppo (Extreme Programming - XP):
+	•	Verrà utilizzato un approccio iterativo e incrementale. Ogni ciclo di sviluppo si concluderà con il rilascio di una versione funzionante del software.
+	•	Verranno seguiti i principi di pair programming (due sviluppatori lavorano insieme sullo stesso codice) e test-driven development (TDD), in cui i test vengono scritti prima del codice.
+	•	Alla fine di ogni iterazione, il team analizzerà i risultati e pianificherà il ciclo successivo.
+	•	Progettazione (UML e revisione tecnica):
+	•	La progettazione sarà documentata con l’uso di diagrammi UML.
+	•	Prima di avviare lo sviluppo di una nuova funzionalità, verranno prodotti i diagrammi di casi d’uso, classi, sequenza e attività, quando necessario.
+	•	La revisione tecnica del design sarà condotta per garantire la fattibilità e la chiarezza delle soluzioni adottate.
+	•	Testing e Quality Assurance (QA):
+	•	Saranno scritti test automatici per le componenti critiche del software, seguendo il modello test-first di Extreme Programming.
+	•	Le procedure di testing seguiranno un ciclo definito:
+	1.	Scrittura dei test (test unitari e di integrazione)
+	2.	Sviluppo della funzionalità corrispondente
+	3.	Esecuzione dei test e analisi dei risultati
+	4.	Correzione degli errori e re-test
+	•	Saranno condotti test di accettazione con gli stakeholder prima di ogni rilascio importante.
+	•	Controllo di qualità e revisione del codice:
+	•	Sarà adottata una pratica di code review obbligatoria, dove il codice scritto da uno sviluppatore verrà rivisto da un altro membro del team prima di essere accettato nel ramo principale (main branch).
+	•	Le pull request saranno sottoposte a un processo di validazione, e sarà necessario un approvazione prima del merge.
+	•	L’uso di strumenti di analisi statica (come SonarQube) garantirà che il codice rispetti le convenzioni di qualità e sicurezza.
 
 ## 5. Attività di gestione
 
