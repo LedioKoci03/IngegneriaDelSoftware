@@ -114,17 +114,18 @@ Non è previsto alcun budget per lo sviluppo di questo progetto.
 
 L’implementazione sarà organizzata in cicli iterativi per garantire un rilascio graduale e un controllo costante sulla qualità. Ogni iterazione avrà una durata indefinita e porterà alla produzione di una versione funzionante del software.
 
-Fasi principali dello sviluppo:<br>
-	1.	Pianificazione del ciclo:<br>
-		-	Definizione delle funzionalità da sviluppare in ogni ciclo.<br>
-		-	Assegnazione delle attività ai membri del team tramite strumenti di gestione.<br>
-	2.	Scrittura del codice:<br>
+Fasi principali dello sviluppo:
+
+1.	Pianificazione del ciclo:
+	-	Definizione delle funzionalità da sviluppare in ogni ciclo.<br>
+	-	Assegnazione delle attività ai membri del team tramite strumenti di gestione.<br>
+2.	Scrittura del codice:<br>
 		-	Implementazione del codice seguendo le best practice di programmazione.<br>
 		-	Revisione del codice (code review) tra i membri del team per ridurre il rischio di errori e migliorare la qualità.<br>
-	3.	Testing iniziale:<br>
+3.	Testing iniziale:<br>
 		-	Esecuzione di test manuali e test automatici (unit test) per identificare errori durante la scrittura del codice.<br>
 		-	Uso di framework di testing (come JUnit) per i test automatici.<br>
-	4.	Revisione e correzione:<br>
+4.	Revisione e correzione:<br>
 		-	Correzione dei bug rilevati durante i test.<br>
 		-	Verifica finale della versione prima di rilasciarla.<br>
 
