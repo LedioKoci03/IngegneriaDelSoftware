@@ -191,7 +191,7 @@ Fasi principali dello sviluppo:
 
 ## Cambiamenti <a name="p13"></a>
 
-La possibilità di incorrere in cambiamenti imprevisti è possibile, in quanto i rischi (come citato nel capitolo 6 "Rischi") sono pressochè inevitabili. Per questo motivo sarà fondamentale adottare la metodologia *Extreme Programming* al meglio (vedi capitolo 2 e 3).
+La possibilità di incorrere in cambiamenti imprevisti è molto elevata, in quanto i rischi (come citato nel capitolo 6 "Rischi") sono pressochè inevitabili. Per questo motivo sarà fondamentale adottare la metodologia *Extreme Programming* al meglio (vedi capitolo 2 e 3).
 
 ## Consegna <a name="p14"></a>
 
