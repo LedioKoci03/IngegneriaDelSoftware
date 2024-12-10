@@ -33,11 +33,21 @@ Obiettivi principali:<br>
 
 ## 2. Modello di processo
 
-### Analisi 
+1.	Planning Game: All’inizio della settimana, il team si riunisce per elencare le funzionalità più importanti e chiarire le aspettative e le necessità legate al progetto. In questa fase, si definisce l’ambito del progetto (che rimane sempre flessibile).<br>
+2.	Small Releases or Deliveries (Rilasci o consegne frequenti): Alla fine di ogni settimana, si ricevono piccole versioni del progetto da testare e su cui fornire feedback o suggerimenti di miglioramento.<br>
+3.	Simple Design (Progettazione semplice): Più il codice e la ricerca dei risultati attesi sono semplici, meglio è. La semplicità deve essere mirata ai risultati e non solo allo sviluppo. Un codice facile da scrivere non sempre rappresenta la soluzione più semplice.<br>
+4.	User Testing (Test degli utenti): Fase in cui si testano le versioni rilasciate del prodotto per verificarne la correttezza e suggerire eventuali modifiche o miglioramenti.<br>
+5.	Sustainable Pace (Ritmo sostenibile): L’Extreme Programming promuove il rispetto del fattore umano, garantendo motivazione e armonia tra i membri del team.<br>
+6.	Collective Ownership (Proprietà collettiva): Il progetto sviluppato deve essere conosciuto e accessibile a tutto il team, senza la necessità di permessi speciali. Questo accelera il processo di sviluppo e ne aumenta la trasparenza, in linea con i principi della gestione visiva (visual management).<br>
+7.	Pair Programming (Programmazione in coppia): Due membri lavorano su un singolo computer, garantendo una revisione continua del codice, favorendo l’apprendimento reciproco durante il processo, promuovendo la condivisione della conoscenza delle regole di business ed infine l’equilibrio delle competenze tecniche.<br>
+8.	Coding Standard (Standard di codifica): Nel caso dello sviluppo software, il codice deve seguire uno standard comune, in modo che tutti i membri del team utilizzino le stesse regole. L’obiettivo è far sembrare che il codice sia stato scritto da una sola persona, garantendo coerenza e facilità di manutenzione.<br>
+9.	Test-Oriented Development (Sviluppo orientato ai test): I test unitari sono essenziali per garantire la qualità del progetto. La pratica prevede di creare prima i test unitari e successivamente il codice necessario per farli funzionare.<br>
+10.	Refactoring (Rifattorizzazione): Processo di miglioramento continuo del progetto, volto a rendere il codice più chiaro, con minori possibilità di errori e riducendo la duplicazione di processi o funzioni.<br>
+11.	Continuous Integration (Integrazione continua): Le nuove funzionalità devono essere rapidamente integrate nella versione attuale del sistema. Questo consente di eseguire test prima possibile, identificando e risolvendo eventuali problemi in tempi rapidi.<br>
 
 ## 3. Organizzazione del processo
 
-Ciascun membro del gruppo detiene le medesime responsabilità durante tutte le fasi del progetto (quindi progettazione, sviluppo e test), adottando ruoli di tipo Agile; in particolare, verranno effetuate delle riunioni sporadiche in modo tale da poter permettere a tutti e tre i membri di confrontarsi sullo sviluppo del progetto e pianificare i prossimi passi da seguire.
+Ciascun membro del gruppo detiene le medesime responsabilità durante tutte le fasi del progetto (quindi progettazione, sviluppo e test), adottando ruoli di tipo Agile, in particolare Extreme Programming (XP); verranno effetuate delle riunioni in modo tale da poter permettere a tutti e tre i membri di confrontarsi sullo sviluppo del progetto e pianificare i prossimi passi da seguire.
 
 ## 4. Standard, linee guida, procedure
 Content for conclusion...
@@ -83,10 +93,14 @@ Software e tool:
 
 Per quanto riguarda i dispositivi, il software verrà sviluppato su due sistemi operativi, ovvero:
 
--MacOS 15.0 Sequoia
--Windows 11
+-MacOS 15.0 Sequoia<br>
+-Windows 11<br>
 
 ## 12. Budget e programma
+
+Non è previsto alcun budget per lo sviluppo di questo progetto.
+
+
 
 ## 13. Cambiamenti
 
