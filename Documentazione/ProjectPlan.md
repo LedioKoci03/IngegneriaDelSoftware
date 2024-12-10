@@ -88,8 +88,8 @@ Vedi capitolo 3 e 7.
 Software e tool:
 
 - Eclipse: IDE utilizzato per poter lavorare allo sviluppo del progetto (versione 2024-09)
-- Papyrus: utile per poter realizzare i diagrammi UML
-- libreria db ancora non accertata
+- Papyrus: utile per poter realizzare i diagrammi UML da cui poter generare il codice iniziale
+- libreria db: SQLite, permette di poter implementare un database embedded
 
 Per quanto riguarda i dispositivi, il software verrà sviluppato su due sistemi operativi, ovvero:
 
@@ -103,6 +103,8 @@ Non è previsto alcun budget per lo sviluppo di questo progetto.
 
 
 ## 13. Cambiamenti
+
+La possibilità di incorrere in cambiamenti imprevisti è possibile, in quanto i rischi (come citato nel capitolo 6 "Rischi") sono pressochè inevitabili. Per questo motivo sarà fondamentale adottare la metodologia Extreme Programming al meglio (vedi capitolo 2 e 3).
 
 ## 14. Consegna
 
