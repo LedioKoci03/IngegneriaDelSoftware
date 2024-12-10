@@ -80,12 +80,13 @@ Di seguito i membri:
 
 La qualità del prodotto sarà garantita tramite controlli regolari e misurazioni oggettive. Verranno utilizzate metriche per valutare la qualità del codice e la soddisfazione dei requisiti.
 
-Tecniche di controllo della qualità:<br>
-	-	Code Review: ogni modifica sarà sottoposta a revisione tra i membri del team.<br>
-	-	Misurazione delle metriche di qualità:<br>
-		-	Copertura del codice (percentuale di righe coperte dai test).<br>
-		-	Numero di bug rilevati e tempo medio di risoluzione.<br>
-		-	Complessità ciclomatica per misurare la complessità dei metodi.<br>
+Tecniche di controllo della qualità:
+
+-	Code Review: ogni modifica sarà sottoposta a revisione tra i membri del team.<br>
+-	Misurazione delle metriche di qualità:<br>
+-	Copertura del codice (percentuale di righe coperte dai test).<br>
+-	Numero di bug rilevati e tempo medio di risoluzione.<br>
+-	Complessità ciclomatica per misurare la complessità dei metodi.<br>
 
 Strumenti utilizzati:<br>
 	-	Strumenti di gestione delle metriche di qualità (GitHub ecc.) per il monitoraggio continuo.<br>
