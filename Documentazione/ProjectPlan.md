@@ -78,8 +78,8 @@ Di seguito i membri:
 ## 8. Metodi e tecniche
 
 1.	Identificazione dei requisiti:
-   •	Raccolta delle richieste e analisi del problema, brainstorming.
-   •	Scomposizione del problema generale in sotto-problemi più piccoli e affrontabili singolarmente.
+-	Raccolta delle richieste e analisi del problema, brainstorming.
+- 	Scomposizione del problema generale in sotto-problemi più piccoli e affrontabili singolarmente.
 3.	Documentazione:
 	•	Ogni requisito sarà descritto in un documento di Specifica Requisiti, specificando:
 	•	Obiettivo del requisito
