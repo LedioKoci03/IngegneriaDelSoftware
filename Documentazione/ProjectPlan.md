@@ -26,7 +26,7 @@ a.a 2024-2025
 
 ## 1. Introduzione <a name="p1"></a>
 
-### Il progetto mira a sviluppare un sistema per ottimizzare la gestione dei parcheggi dell'università, ridurre i tempi di ricerca e migliorare l’esperienza utente.
+ Il progetto mira a sviluppare un sistema per ottimizzare la gestione dei parcheggi dell'università, ridurre i tempi di ricerca e migliorare l’esperienza utente.
 
 Obiettivi principali:
 - Ottimizzazione degli spazi disponibili.<br>
