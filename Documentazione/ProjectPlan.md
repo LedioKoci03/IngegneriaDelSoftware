@@ -158,7 +158,10 @@ Strumenti utilizzati:
 
 ##  10. Pacchetti di lavoro (workpackages) <a name="p10"></a>
 
-
+Per lo sviluppo del software verranno utilizzati i seguenti framework o librerie:
+- Papyrus: libreria Java utilizzata per creare diagrammi UML, per poi generarne il codice da essi.
+- SQLite: database embedded leggero e autonomo, progettato per essere integrato direttamente nelle applicazioni. Non richiede un server separato per funzionare ed è memorizzato in un singolo file sul disco.
+- Spring Boot: Spring Boot è un framework Java basato su Spring che semplifica lo sviluppo di applicazioni standalone e pronte per la produzione. È ampiamente usato per lo sviluppo di applicazioni backend moderne e scalabili.
 
 ##  11. Risorse <a name="p11"></a>
 
