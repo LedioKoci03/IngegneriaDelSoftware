@@ -26,7 +26,34 @@ a.a 2024-2025
 
 ## 1. Introduzione <a name="p1"></a>
 
- Il progetto mira a sviluppare un sistema per ottimizzare la gestione dei parcheggi dell'università, ridurre i tempi di ricerca e migliorare l’esperienza utente.
+Un comune vuole implementare un sistema di gestione automatizzata dei parcheggi urbani per ottimizzare l’uso degli spazi disponibili e ridurre i tempi di ricerca del parcheggio.
+Sono previsti due tipi di utenti: i residenti e i visitatori occasionali.
+
+Regole e funzionalità principali:
+
+1.	I residenti possono richiedere un abbonamento mensile o annuale che consente loro di parcheggiare in zone dedicate, con accesso illimitato a qualsiasi ora.
+
+2.	I visitatori occasionali devono pagare una tariffa oraria tramite un’applicazione mobile o un terminale fisico installato nelle vicinanze dei parcheggi.
+
+3.	Ogni parcheggio è dotato di sensori per rilevare la presenza di veicoli e per verificare se il pagamento è stato effettuato.
+
+4.	L’accesso al parcheggio è gestito tramite un QRCode univoco fornito dal sistema, che associa il veicolo al profilo dell’utente.
+
+5.	Se un veicolo viene parcheggiato senza un pagamento valido o senza un abbonamento attivo, il sistema invia una notifica al conducente e, in caso di mancata regolarizzazione, genera automaticamente una multa.
+
+6.	I visitatori occasionali devono specificare il tempo stimato di permanenza e, se superano il limite dichiarato, il sistema addebita automaticamente una tariffa aggiuntiva.
+
+7.	Per ogni utente registrato è richiesto di indicare i dati del veicolo (proprietario, targa e modello).
+
+Funzionamento del sistema:
+
+ • Quando un veicolo accede a un parcheggio, un impianto ottico legge la targa e verifica nel database il tipo di utente e lo stato del pagamento.
+
+• I residenti possono uscire senza ulteriori verifiche.
+
+• I visitatori occasionali devono validare l’uscita tramite l’app o il terminale fisico, specificando se desiderano estendere il tempo di parcheggio o concludere la sessione.
+
+Il progetto mira a sviluppare un sistema per ottimizzare la gestione dei parcheggi dell'università, ridurre i tempi di ricerca e migliorare l’esperienza utente.
 
 Obiettivi principali:
 - Ottimizzazione degli spazi disponibili.<br>
