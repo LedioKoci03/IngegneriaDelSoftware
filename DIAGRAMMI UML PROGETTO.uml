@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_npGXQMUoEe-ZuK7SMw5DZQ" name="DIAGRAMMI UML PROGETTO">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_nvRQsMUoEe-ZuK7SMw5DZQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_ks_yQMXHEe-crrsLXs7nyQ" name="PARCHEGGIO">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_R19hMMXPEe-crrsLXs7nyQ" annotatedElement="_1rP-8MXOEe-crrsLXs7nyQ">
+      <body>CONDIZ:&#xD;
+TEMPO SUPERATO&#xD;
+</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_vLhmoMXHEe-crrsLXs7nyQ" name="RICHIEDI ABBONAMENTO"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_vo44EMXHEe-crrsLXs7nyQ" name="REGISTRA VEICOLO"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_wIrLYMXHEe-crrsLXs7nyQ" name="PAGA TARIFFA ORARIA"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_wiVBgMXHEe-crrsLXs7nyQ" name="VALIDA USCITA">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_qq6eAcXOEe-crrsLXs7nyQ" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_w81MMMXHEe-crrsLXs7nyQ" name="ESTENDI TEMPO PARCHEGGIO">
+      <extend xmi:type="uml:Extend" xmi:id="_qq6eAMXOEe-crrsLXs7nyQ" extendedCase="_wiVBgMXHEe-crrsLXs7nyQ" extensionLocation="_qq6eAcXOEe-crrsLXs7nyQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_iBJlIMXJEe-crrsLXs7nyQ" name="RILEVA PRESENZA VEICOLO"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_wVPV0MXJEe-crrsLXs7nyQ" name="VERIFICA ACCESSO E STATO PAGAMENTO"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_-WGBcMXJEe-crrsLXs7nyQ" name="NOTIFICA CONDUCENTE">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_C0sW4MXOEe-crrsLXs7nyQ" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_GJqEYMXKEe-crrsLXs7nyQ" name="GENERA MULTA AUTOMATICA">
+      <extend xmi:type="uml:Extend" xmi:id="_C0qhsMXOEe-crrsLXs7nyQ" extendedCase="_-WGBcMXJEe-crrsLXs7nyQ" extensionLocation="_C0sW4MXOEe-crrsLXs7nyQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_3WlcMMXKEe-crrsLXs7nyQ" name="DICHIARA TEMPO PERMANENZA">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_1rRNEMXOEe-crrsLXs7nyQ" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_UmvjkMXLEe-crrsLXs7nyQ" name="ADDEBITA TARIFFA AGGIUNTIVA">
+      <extend xmi:type="uml:Extend" xmi:id="_1rP-8MXOEe-crrsLXs7nyQ" extendedCase="_3WlcMMXKEe-crrsLXs7nyQ" extensionLocation="_1rRNEMXOEe-crrsLXs7nyQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_DJnv8MXMEe-crrsLXs7nyQ" name="GENERA QR"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_jPNMUMXMEe-crrsLXs7nyQ" name="INDICA DATI VEICOLO"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_76fzoMXHEe-crrsLXs7nyQ" memberEnd="_76iP4MXHEe-crrsLXs7nyQ _76iP4cXHEe-crrsLXs7nyQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_76ho0MXHEe-crrsLXs7nyQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_76ho0cXHEe-crrsLXs7nyQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_76iP4MXHEe-crrsLXs7nyQ" name="richiedi abbonamento" type="_vLhmoMXHEe-crrsLXs7nyQ" association="_76fzoMXHEe-crrsLXs7nyQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_76iP4cXHEe-crrsLXs7nyQ" name="residente" type="_mSkB4MXHEe-crrsLXs7nyQ" association="_76fzoMXHEe-crrsLXs7nyQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9CrjsMXHEe-crrsLXs7nyQ" memberEnd="_9Csx0MXHEe-crrsLXs7nyQ _9Csx0cXHEe-crrsLXs7nyQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9CsKwMXHEe-crrsLXs7nyQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9CsKwcXHEe-crrsLXs7nyQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9Csx0MXHEe-crrsLXs7nyQ" name="registra veicolo" type="_vo44EMXHEe-crrsLXs7nyQ" association="_9CrjsMXHEe-crrsLXs7nyQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9Csx0cXHEe-crrsLXs7nyQ" name="residente" type="_mSkB4MXHEe-crrsLXs7nyQ" association="_9CrjsMXHEe-crrsLXs7nyQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-nFVsMXHEe-crrsLXs7nyQ" memberEnd="_-nF8wsXHEe-crrsLXs7nyQ _-nGj0MXHEe-crrsLXs7nyQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-nF8wMXHEe-crrsLXs7nyQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-nF8wcXHEe-crrsLXs7nyQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-nF8wsXHEe-crrsLXs7nyQ" name="registra veicolo" type="_vo44EMXHEe-crrsLXs7nyQ" association="_-nFVsMXHEe-crrsLXs7nyQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-nGj0MXHEe-crrsLXs7nyQ" name="visitatore occasionale" type="_n0qt0MXHEe-crrsLXs7nyQ" association="_-nFVsMXHEe-crrsLXs7nyQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_baq10MXIEe-crrsLXs7nyQ" memberEnd="_basD8sXIEe-crrsLXs7nyQ _basD88XIEe-crrsLXs7nyQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_basD8MXIEe-crrsLXs7nyQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_basD8cXIEe-crrsLXs7nyQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_basD8sXIEe-crrsLXs7nyQ" name="paga tariffa oraria" type="_wIrLYMXHEe-crrsLXs7nyQ" association="_baq10MXIEe-crrsLXs7nyQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_basD88XIEe-crrsLXs7nyQ" name="visitatore occasionale" type="_n0qt0MXHEe-crrsLXs7nyQ" association="_baq10MXIEe-crrsLXs7nyQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_iVaaYMXIEe-crrsLXs7nyQ" memberEnd="_iVcPkMXIEe-crrsLXs7nyQ _iVcPkcXIEe-crrsLXs7nyQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_iVbogMXIEe-crrsLXs7nyQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iVbogcXIEe-crrsLXs7nyQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_iVcPkMXIEe-crrsLXs7nyQ" name="valida uscita" type="_wiVBgMXHEe-crrsLXs7nyQ" association="_iVaaYMXIEe-crrsLXs7nyQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_iVcPkcXIEe-crrsLXs7nyQ" name="visitatore occasionale" type="_n0qt0MXHEe-crrsLXs7nyQ" association="_iVaaYMXIEe-crrsLXs7nyQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_mSkB4MXHEe-crrsLXs7nyQ" name="RESIDENTE"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_n0qt0MXHEe-crrsLXs7nyQ" name="VISITATORE OCCASIONALE"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_OejvQMXJEe-crrsLXs7nyQ" name="Actor11"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_QB9bsMXJEe-crrsLXs7nyQ" name="SISTEMA PAGAMENTO"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_YnqGMMXJEe-crrsLXs7nyQ" memberEnd="_YnrUUcXJEe-crrsLXs7nyQ _YnrUUsXJEe-crrsLXs7nyQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YnqtQMXJEe-crrsLXs7nyQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YnrUUMXJEe-crrsLXs7nyQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YnrUUcXJEe-crrsLXs7nyQ" name="paga tariffa oraria" type="_wIrLYMXHEe-crrsLXs7nyQ" association="_YnqGMMXJEe-crrsLXs7nyQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YnrUUsXJEe-crrsLXs7nyQ" name="sistema pagamento" type="_QB9bsMXJEe-crrsLXs7nyQ" association="_YnqGMMXJEe-crrsLXs7nyQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_a3ezwMXJEe-crrsLXs7nyQ" memberEnd="_a3ezw8XJEe-crrsLXs7nyQ _a3ezxMXJEe-crrsLXs7nyQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_a3ezwcXJEe-crrsLXs7nyQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a3ezwsXJEe-crrsLXs7nyQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_a3ezw8XJEe-crrsLXs7nyQ" name="estendi tempo parcheggio" type="_w81MMMXHEe-crrsLXs7nyQ" association="_a3ezwMXJEe-crrsLXs7nyQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_a3ezxMXJEe-crrsLXs7nyQ" name="sistema pagamento" type="_QB9bsMXJEe-crrsLXs7nyQ" association="_a3ezwMXJEe-crrsLXs7nyQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_d_4IEMXJEe-crrsLXs7nyQ" memberEnd="_d_5WMsXJEe-crrsLXs7nyQ _d_5WM8XJEe-crrsLXs7nyQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_d_5WMMXJEe-crrsLXs7nyQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d_5WMcXJEe-crrsLXs7nyQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_d_5WMsXJEe-crrsLXs7nyQ" name="valida uscita" type="_wiVBgMXHEe-crrsLXs7nyQ" association="_d_4IEMXJEe-crrsLXs7nyQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_d_5WM8XJEe-crrsLXs7nyQ" name="sistema pagamento" type="_QB9bsMXJEe-crrsLXs7nyQ" association="_d_4IEMXJEe-crrsLXs7nyQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_gJ3TYMXJEe-crrsLXs7nyQ" name="SENSORE"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_m8AVkMXJEe-crrsLXs7nyQ" memberEnd="_m8CKwcXJEe-crrsLXs7nyQ _m8CKwsXJEe-crrsLXs7nyQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m8BjsMXJEe-crrsLXs7nyQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_m8CKwMXJEe-crrsLXs7nyQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_m8CKwcXJEe-crrsLXs7nyQ" name="rileva presenza veicolo" type="_iBJlIMXJEe-crrsLXs7nyQ" association="_m8AVkMXJEe-crrsLXs7nyQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_m8CKwsXJEe-crrsLXs7nyQ" name="sensore" type="_gJ3TYMXJEe-crrsLXs7nyQ" association="_m8AVkMXJEe-crrsLXs7nyQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1SsuUMXJEe-crrsLXs7nyQ" memberEnd="_1SvKkMXJEe-crrsLXs7nyQ _1SvKkcXJEe-crrsLXs7nyQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1SujgMXJEe-crrsLXs7nyQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1SujgcXJEe-crrsLXs7nyQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1SvKkMXJEe-crrsLXs7nyQ" name="verifica accesso e stato pagamento" type="_wVPV0MXJEe-crrsLXs7nyQ" association="_1SsuUMXJEe-crrsLXs7nyQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1SvKkcXJEe-crrsLXs7nyQ" name="rileva presenza veicolo" type="_iBJlIMXJEe-crrsLXs7nyQ" association="_1SsuUMXJEe-crrsLXs7nyQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_5_9usMXJEe-crrsLXs7nyQ" name="SISTEMA NOTIFICA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_C7vW4MXKEe-crrsLXs7nyQ" memberEnd="_C7xMEsXKEe-crrsLXs7nyQ _C7xME8XKEe-crrsLXs7nyQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C7xMEMXKEe-crrsLXs7nyQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_C7xMEcXKEe-crrsLXs7nyQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_C7xMEsXKEe-crrsLXs7nyQ" name="notifica conducente" type="_-WGBcMXJEe-crrsLXs7nyQ" association="_C7vW4MXKEe-crrsLXs7nyQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_C7xME8XKEe-crrsLXs7nyQ" name="sistema notifica" type="_5_9usMXJEe-crrsLXs7nyQ" association="_C7vW4MXKEe-crrsLXs7nyQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7B-v4MXKEe-crrsLXs7nyQ" memberEnd="_7B_-AsXKEe-crrsLXs7nyQ _7B_-A8XKEe-crrsLXs7nyQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7B_-AMXKEe-crrsLXs7nyQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7B_-AcXKEe-crrsLXs7nyQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7B_-AsXKEe-crrsLXs7nyQ" name="dichiara tempo permanenza" type="_3WlcMMXKEe-crrsLXs7nyQ" association="_7B-v4MXKEe-crrsLXs7nyQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7B_-A8XKEe-crrsLXs7nyQ" name="visitatore occasionale" type="_n0qt0MXHEe-crrsLXs7nyQ" association="_7B-v4MXKEe-crrsLXs7nyQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_B32mEMXMEe-crrsLXs7nyQ" memberEnd="_B35CUMXMEe-crrsLXs7nyQ _B35CUcXMEe-crrsLXs7nyQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_B34bQMXMEe-crrsLXs7nyQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_B34bQcXMEe-crrsLXs7nyQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_B35CUMXMEe-crrsLXs7nyQ" name="sistema pagamento" type="_QB9bsMXJEe-crrsLXs7nyQ" association="_B32mEMXMEe-crrsLXs7nyQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_B35CUcXMEe-crrsLXs7nyQ" name="addebita tariffa aggiuntiva" type="_UmvjkMXLEe-crrsLXs7nyQ" association="_B32mEMXMEe-crrsLXs7nyQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_IHwd4MXMEe-crrsLXs7nyQ" memberEnd="_IHyTEMXMEe-crrsLXs7nyQ _IHyTEcXMEe-crrsLXs7nyQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IHxsAMXMEe-crrsLXs7nyQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IHxsAcXMEe-crrsLXs7nyQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_IHyTEMXMEe-crrsLXs7nyQ" name="genera qr" type="_DJnv8MXMEe-crrsLXs7nyQ" association="_IHwd4MXMEe-crrsLXs7nyQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_IHyTEcXMEe-crrsLXs7nyQ" name="sistema pagamento" type="_QB9bsMXJEe-crrsLXs7nyQ" association="_IHwd4MXMEe-crrsLXs7nyQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_nSs28MXMEe-crrsLXs7nyQ" memberEnd="_nSuFEsXMEe-crrsLXs7nyQ _nSuFE8XMEe-crrsLXs7nyQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nSuFEMXMEe-crrsLXs7nyQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nSuFEcXMEe-crrsLXs7nyQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_nSuFEsXMEe-crrsLXs7nyQ" name="indica dati veicolo" type="_jPNMUMXMEe-crrsLXs7nyQ" association="_nSs28MXMEe-crrsLXs7nyQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_nSuFE8XMEe-crrsLXs7nyQ" name="sistema pagamento" type="_QB9bsMXJEe-crrsLXs7nyQ" association="_nSs28MXMEe-crrsLXs7nyQ"/>
+  </packagedElement>
+</uml:Model>
