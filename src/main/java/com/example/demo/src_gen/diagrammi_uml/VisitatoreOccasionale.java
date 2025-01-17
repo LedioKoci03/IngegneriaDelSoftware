@@ -5,10 +5,18 @@
 package com.example.demo.src_gen.diagrammi_uml;
 
 import jakarta.persistence.Column;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 
 public class VisitatoreOccasionale extends Utente {
 
     public Abbonamento abbonamento;
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
+    public Integer id;
 
     @Column(name = "tempo")
     public String tempo;
