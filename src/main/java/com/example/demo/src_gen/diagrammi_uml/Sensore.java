@@ -4,9 +4,22 @@
 
 package com.example.demo.src_gen.diagrammi_uml;
 
+import jakarta.persistence.*;
+import lombok.*;
+
+@Setter
+@Getter
+@Entity
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+@Table(name = "\"sensore\"")
 public class Sensore extends Sistema
  {
 
+  @Id
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
+  @Column(name = "id")
   public String id;
 
   public void rilevaVeicolo(){}

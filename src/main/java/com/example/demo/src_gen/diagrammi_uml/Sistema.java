@@ -4,8 +4,19 @@
 
 package com.example.demo.src_gen.diagrammi_uml;
 
+import jakarta.persistence.*;
+import lombok.*;
+
+@Setter
+@Getter
+@Entity
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+@Table(name = "\"sistema\"")
 public class Sistema {
 
+    @Column(name = "cod")
     public String cod;
 
     public void registraUtente(){}

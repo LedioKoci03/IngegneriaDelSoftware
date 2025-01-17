@@ -4,9 +4,13 @@
 
 package com.example.demo.src_gen.diagrammi_uml;
 
+import jakarta.persistence.Column;
+
 public class VisitatoreOccasionale extends Utente {
 
     public Abbonamento abbonamento;
+
+    @Column(name = "tempo")
     public String tempo;
 
     public void pagaTariffaAggiuntiva(){}

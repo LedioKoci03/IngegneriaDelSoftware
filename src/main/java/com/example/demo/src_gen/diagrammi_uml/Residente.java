@@ -4,9 +4,22 @@
 
 package com.example.demo.src_gen.diagrammi_uml;
 
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+import lombok.*;
+
+@Setter
+@Getter
+@Entity
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+@Table(name = "\"residente\"")
 public class Residente extends Utente
  {
 
+  @Column(name = "tempo")
   public String tempo;
   public Abbonamento abbonamento;
 }
