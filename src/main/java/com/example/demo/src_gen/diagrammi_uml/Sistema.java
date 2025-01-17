@@ -16,6 +16,8 @@ import lombok.*;
 @Table(name = "\"sistema\"")
 public class Sistema {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "cod")
     public String cod;
 
