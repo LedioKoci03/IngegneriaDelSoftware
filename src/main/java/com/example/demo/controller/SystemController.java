@@ -1,10 +1,8 @@
 package com.example.demo.controller;
 
 import com.example.demo.service.SystemService;
-import com.example.demo.service.UserService;
 import com.example.demo.src_gen.diagrammi_uml.Sistema;
 import com.example.demo.src_gen.diagrammi_uml.Utente;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -15,21 +13,21 @@ import java.util.Optional;
 @RequestMapping("/api/v1/System")
 public class SystemController {
 
-    @Autowired
-    private SystemService systemService;
+    public SystemService systemService;
 
     @PostMapping("/registraSistema")
-    public ResponseEntity<?> registraSistema(@RequestBody Sistema sistema){
+    public ResponseEntity<?> registraSistema(@RequestBody Sistema s){
 
-        SystemService.registraSistema(sistema);
+        systemService.registraSistema(s);
 
         return (ResponseEntity<?>) ResponseEntity.ok("Sistema registrato!");
+
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<Optional<Sistema>> getById(@PathVariable("id") Integer id){
+    public ResponseEntity<Optional<Sistema>> getUserById(@PathVariable("id") Integer id){
         try {
-            return new ResponseEntity<Optional<Sistema>>(SystemService.getById(id), HttpStatus.OK);
+            return new ResponseEntity<Optional<Sistema>>(systemService.getById(id), HttpStatus.OK);
         }catch (Exception e){
             e.printStackTrace();
         }
@@ -39,7 +37,7 @@ public class SystemController {
     @DeleteMapping("/{id")
     public ResponseEntity<?> eliminaSistema(@PathVariable("id") Integer id){
 
-        SystemService.eliminaSistema(id);
+        systemService.eliminaSistema(id);
 
         return (ResponseEntity<?>) ResponseEntity.ok("Sistema eliminato!");
     }
