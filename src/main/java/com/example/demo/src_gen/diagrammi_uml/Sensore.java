@@ -20,7 +20,7 @@ public class Sensore
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   @Column(name = "id")
-  public String id;
+  public Integer id;
 
   public void rilevaVeicolo(){}
 
