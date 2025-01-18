@@ -18,8 +18,8 @@ public class Sistema {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "cod")
-    public String cod;
+    @Column(name = "id")
+    public Integer id;
 
     public void registraUtente(){}
 
