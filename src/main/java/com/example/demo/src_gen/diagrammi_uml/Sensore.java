@@ -14,7 +14,7 @@ import lombok.*;
 @NoArgsConstructor
 @Data
 @Table(name = "\"sensore\"")
-public class Sensore extends Sistema
+public class Sensore
  {
 
   @Id

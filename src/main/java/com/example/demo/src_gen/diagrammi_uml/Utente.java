@@ -12,17 +12,16 @@ import lombok.*;
 @Table(name = "\"user\"")
 public class Utente {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
+    public Integer id;
 
     @Column(name = "nome")
     public String nome;
 
     @Column(name = "cognome")
     public String cognome;
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "CodFiscale")
-    public String CodFiscale;
 
     @Column(name = "eta")
     public Integer eta;

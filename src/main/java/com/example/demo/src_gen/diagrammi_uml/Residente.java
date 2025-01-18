@@ -14,7 +14,7 @@ import lombok.*;
 @NoArgsConstructor
 @Data
 @Table(name = "\"residente\"")
-public class Residente extends Utente
+public class Residente
  {
 
   @Column(name = "tempo")
@@ -24,5 +24,4 @@ public class Residente extends Utente
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   public Integer id;
 
-  public Abbonamento abbonamento;
 }

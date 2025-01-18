@@ -4,12 +4,17 @@
 
 package com.example.demo.src_gen.diagrammi_uml;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
+import lombok.*;
 
-public class VisitatoreOccasionale extends Utente {
+@Setter
+@Getter
+@Entity
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+@Table(name = "\"visitatore\"")
+public class VisitatoreOccasionale {
 
     public Abbonamento abbonamento;
 
