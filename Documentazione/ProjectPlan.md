@@ -37,13 +37,12 @@ Regole e funzionalità principali:
 
 3.	Ogni parcheggio è dotato di sensori per rilevare la presenza di veicoli e per verificare se il pagamento è stato effettuato.
 
-4.	L’accesso al parcheggio è gestito tramite un QRCode univoco fornito dal sistema, che associa il veicolo al profilo dell’utente.
+4.	L’accesso al parcheggio è gestito tramite un QRCode univoco fornito dal sistema, che associa il veicolo al profilo dell’utente.(se implementabile).
 
 5.	Se un veicolo viene parcheggiato senza un pagamento valido o senza un abbonamento attivo, il sistema invia una notifica al conducente e, in caso di mancata regolarizzazione, genera automaticamente una multa.
 
 6.	I visitatori occasionali devono specificare il tempo stimato di permanenza e, se superano il limite dichiarato, il sistema addebita automaticamente una tariffa aggiuntiva.
 
-7.	Per ogni utente registrato è richiesto di indicare i dati del veicolo (proprietario, targa e modello).
 
 Funzionamento del sistema:
 
