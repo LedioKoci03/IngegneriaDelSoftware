@@ -40,6 +40,14 @@ public class SensorController {
         return null;
     }
 
+    @GetMapping("/sensoreRileva/{id}")
+    public ResponseEntity<?> sensoreRileva(@PathVariable("id") Integer id){
+
+        String messaggio = sensorService.sensoreRileva(id);
+
+        return (ResponseEntity<?>) ResponseEntity.ok(messaggio);
+    }
+
     @DeleteMapping("/eliminaSensore/{id}")
     public ResponseEntity<?> eliminaSensore(@PathVariable("id") Integer id){
 

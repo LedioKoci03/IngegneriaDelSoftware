@@ -22,7 +22,7 @@ public class VisitatoreOccasionale {
     public Integer id;
 
     @Column(name = "tempo")
-    public String tempo;
+    public Integer tempo;
 
     public void pagaTariffaAggiuntiva(){}
 
