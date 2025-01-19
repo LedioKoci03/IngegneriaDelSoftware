@@ -24,4 +24,9 @@ public class SensorService {
     public static void eliminaSensore(Integer id){
         sensorRepository.deleteById(id);
     }
+
+    public boolean accertaSensore(Integer id){
+
+        return sensorRepository.existsById(id);
+    }
 }

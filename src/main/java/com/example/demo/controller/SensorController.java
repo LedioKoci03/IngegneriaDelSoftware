@@ -34,6 +34,17 @@ public class SensorController {
         return null;
     }
 
+
+    @GetMapping("/accertaSensore/{id}")
+    public ResponseEntity<?> accertaSensore(@PathVariable("id") Integer id){
+
+        if(sensorService.accertaSensore(id)){
+            return (ResponseEntity<?>) ResponseEntity.ok("Sensore presente!");
+        }else{
+            return (ResponseEntity<?>) ResponseEntity.ok("Sensore non presente!");
+        }
+    }
+
     @DeleteMapping("/{id")
     public ResponseEntity<?> eliminaSensore(@PathVariable("id") Integer id){
 
