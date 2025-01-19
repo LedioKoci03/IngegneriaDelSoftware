@@ -45,7 +45,7 @@ public class SensorController {
         }
     }
 
-    @DeleteMapping("/{id")
+    @DeleteMapping("/{id}")
     public ResponseEntity<?> eliminaSensore(@PathVariable("id") Integer id){
 
         SensorService.eliminaSensore(id);

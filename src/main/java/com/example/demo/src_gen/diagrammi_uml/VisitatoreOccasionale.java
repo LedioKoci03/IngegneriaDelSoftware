@@ -16,8 +16,6 @@ import lombok.*;
 @Table(name = "\"visitatore\"")
 public class VisitatoreOccasionale {
 
-    public Abbonamento abbonamento;
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")

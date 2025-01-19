@@ -34,7 +34,7 @@ public class SystemController {
         return null;
     }
 
-    @DeleteMapping("/{id")
+    @DeleteMapping("/{id}")
     public ResponseEntity<?> eliminaSistema(@PathVariable("id") Integer id){
 
         systemService.eliminaSistema(id);
