@@ -37,7 +37,8 @@ public class SensorService {
         if(visitatore.tempo <= 200 && visitatore.tempo >= 0){
             return "Visitatore ancora ammesso";
         }else {
-            visitatoreService.eliminaVisitatore(id);
+            visitatore.tempo = (visitatore.tempo+50);
+            visitatoreService.registraVisitatore(visitatore);
             return "Visitatore da addebitare tariffa aggiuntiva!";
         }
 
