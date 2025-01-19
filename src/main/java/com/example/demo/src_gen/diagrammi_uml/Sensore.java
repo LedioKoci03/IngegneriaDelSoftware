@@ -22,6 +22,9 @@ public class Sensore
   @Column(name = "id")
   public Integer id;
 
+  @Column(name = "nome")
+  public String nome;
+
   public void rilevaVeicolo(){}
 
   public void leggiTarga(){}

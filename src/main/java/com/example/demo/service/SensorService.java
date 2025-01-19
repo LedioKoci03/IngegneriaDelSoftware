@@ -2,8 +2,10 @@ package com.example.demo.service;
 
 import com.example.demo.repository.SensorRepository;
 import com.example.demo.src_gen.diagrammi_uml.Sensore;
+import com.example.demo.src_gen.diagrammi_uml.Utente;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.PostMapping;
 
 import java.util.Optional;
 
@@ -11,22 +13,18 @@ import java.util.Optional;
 public class SensorService {
 
     @Autowired
-    private static SensorRepository sensorRepository;
+    private SensorRepository sensorRepository;
 
-    public static void registraSensore(Sensore s){
+    public void registraSensore(Sensore s){
         sensorRepository.save(s);
     }
 
-    public static Optional<Sensore> getById(Integer id){
+    public Optional<Sensore> getById(Integer id){
+
         return sensorRepository.findById(id);
     }
 
-    public static void eliminaSensore(Integer id){
+    public void eliminaSensore(Integer id){
         sensorRepository.deleteById(id);
-    }
-
-    public boolean accertaSensore(Integer id){
-
-        return sensorRepository.existsById(id);
     }
 }

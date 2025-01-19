@@ -15,7 +15,11 @@ import java.util.Optional;
 public class UserController {
 
     @Autowired
-    private UserService userService;
+    private final UserService userService;
+
+    public UserController(UserService userService) {
+        this.userService = userService;
+    }
 
     @PostMapping("/registraUtente")
     public ResponseEntity<?> registraUtente(@RequestBody Utente utente){
@@ -25,7 +29,7 @@ public class UserController {
         return (ResponseEntity<?>) ResponseEntity.ok("Utente registrato!");
     }
 
-    @GetMapping("/{id}")
+    @GetMapping("/selezionaUtente/{id}")
     public ResponseEntity<Optional<Utente>> getUserById(@PathVariable("id") Integer id){
         try {
             return new ResponseEntity<Optional<Utente>>(userService.getById(id), HttpStatus.OK);
@@ -35,7 +39,7 @@ public class UserController {
         return null;
     }
 
-    @DeleteMapping("/{id}")
+    @DeleteMapping("/eliminaUtente/{id}")
     public ResponseEntity<?> eliminaUtente(@PathVariable("id") Integer id){
 
         userService.eliminaUtente(id);

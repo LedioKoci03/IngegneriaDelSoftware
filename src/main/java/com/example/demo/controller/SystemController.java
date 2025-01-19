@@ -3,6 +3,7 @@ package com.example.demo.controller;
 import com.example.demo.service.SystemService;
 import com.example.demo.src_gen.diagrammi_uml.Sistema;
 import com.example.demo.src_gen.diagrammi_uml.Utente;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -13,7 +14,12 @@ import java.util.Optional;
 @RequestMapping("/api/v1/System")
 public class SystemController {
 
-    public SystemService systemService;
+    @Autowired
+    public final SystemService systemService;
+
+    public SystemController(SystemService systemService) {
+        this.systemService = systemService;
+    }
 
     @PostMapping("/registraSistema")
     public ResponseEntity<?> registraSistema(@RequestBody Sistema s){
@@ -24,7 +30,7 @@ public class SystemController {
 
     }
 
-    @GetMapping("/{id}")
+    @GetMapping("/selezionaSistema/{id}")
     public ResponseEntity<Optional<Sistema>> getUserById(@PathVariable("id") Integer id){
         try {
             return new ResponseEntity<Optional<Sistema>>(systemService.getById(id), HttpStatus.OK);
@@ -34,7 +40,7 @@ public class SystemController {
         return null;
     }
 
-    @DeleteMapping("/{id}")
+    @DeleteMapping("/eliminaSistema/{id}")
     public ResponseEntity<?> eliminaSistema(@PathVariable("id") Integer id){
 
         systemService.eliminaSistema(id);
