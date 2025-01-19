@@ -1,21 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_npGXQMUoEe-ZuK7SMw5DZQ" name="DIAGRAMMI UML PROGETTO">
-  <ownedComment xmi:type="uml:Comment" xmi:id="_8V7aUMrIEe-sv4XfQjMMWw">
-    <body>Per Irregolarità si intende:&#xD;
-1 tempo superato&#xD;
-2 pagamento nullo o non effettuato&#xD;
-3 utente non corrispondente&#xD;
-4 abbonamento non attivo&#xD;
-</body>
-  </ownedComment>
-  <ownedComment xmi:type="uml:Comment" xmi:id="_52g8sMs4Ee-MqqM8iPdkwg">
-    <body>DA SISTEMARE POI IN FASE DI IMPLEMENTAZIONE:&#xD;
-1 CARDINALITA'&#xD;
-2 IN E OUT OPERAZIONI&#xD;
-3 RITORNO OPERAZIONI&#xD;
-4 CLASSI ASSOCIATIVE&#xD;
-ECC....</body>
-  </ownedComment>
   <ownedComment xmi:type="uml:Comment" xmi:id="_Y1MCcMuIEe-Mx6PjBOP1bg">
     <body>da rifinire più avanti&#xD;
 </body>
@@ -61,6 +45,14 @@ tempo superato&#xD;
 notifica&#xD;
 Condition:&#xD;
 parcheggio al completo&#xD;
+</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_8V7aUMrIEe-sv4XfQjMMWw">
+      <body>Per Irregolarità si intende:&#xD;
+1 tempo superato&#xD;
+2 pagamento nullo o non effettuato&#xD;
+3 utente non corrispondente&#xD;
+4 abbonamento non attivo&#xD;
 </body>
     </ownedComment>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_vLhmoMXHEe-crrsLXs7nyQ" name="RICHIEDI ABBONAMENTO">
@@ -156,6 +148,14 @@ parcheggio al completo&#xD;
     <ownedEnd xmi:type="uml:Property" xmi:id="_IHyTEcXMEe-crrsLXs7nyQ" name="sistema pagamento" type="_QB9bsMXJEe-crrsLXs7nyQ" association="_IHwd4MXMEe-crrsLXs7nyQ"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Model" xmi:id="_HwFbQMdtEe-_hqqmhjdMHg" visibility="public">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_52g8sMs4Ee-MqqM8iPdkwg">
+      <body>DA SISTEMARE POI IN FASE DI IMPLEMENTAZIONE:&#xD;
+1 CARDINALITA'&#xD;
+2 IN E OUT OPERAZIONI&#xD;
+3 RITORNO OPERAZIONI&#xD;
+4 CLASSI ASSOCIATIVE&#xD;
+ECC....</body>
+    </ownedComment>
     <packagedElement xmi:type="uml:Class" xmi:id="_LFc0kMdtEe-_hqqmhjdMHg" name="SistemaParcheggio">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_FN91MMrNEe-sv4XfQjMMWw" name="COD">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -334,13 +334,13 @@ parcheggio al completo&#xD;
         <transition xmi:type="uml:Transition" xmi:id="_PdqSAMs-Ee-H25Luli9ecQ" source="_XLPeMMs9Ee-H25Luli9ecQ" target="_L5wtcMs-Ee-H25Luli9ecQ"/>
         <transition xmi:type="uml:Transition" xmi:id="_aIbyoMs-Ee-H25Luli9ecQ" name="mancataRegolarizzazione" source="_L5wtcMs-Ee-H25Luli9ecQ" target="_dEN60MhrEe-jBbQjgq7ZNg"/>
         <transition xmi:type="uml:Transition" xmi:id="_uIQhoMs_Ee-H25Luli9ecQ" name="genera" source="_dEN60MhrEe-jBbQjgq7ZNg" target="_octUEMs_Ee-H25Luli9ecQ"/>
-        <transition xmi:type="uml:Transition" xmi:id="_-aG_gMs_Ee-H25Luli9ecQ" name="accessoConsentito" source="_mWpCoMtDEe-H25Luli9ecQ" target="_0TB0wNZWEe-AzYvIoBvuOQ"/>
+        <transition xmi:type="uml:Transition" xmi:id="_-aG_gMs_Ee-H25Luli9ecQ" source="_mWpCoMtDEe-H25Luli9ecQ" target="_0TB0wNZWEe-AzYvIoBvuOQ"/>
         <transition xmi:type="uml:Transition" xmi:id="_YPmr8MtCEe-H25Luli9ecQ" name="visitatoreOccasionale" source="_eFUw4Ms8Ee-H25Luli9ecQ" target="_XLPeMMs9Ee-H25Luli9ecQ"/>
         <transition xmi:type="uml:Transition" xmi:id="_jtUFYMtCEe-H25Luli9ecQ" name="residente" source="_eFUw4Ms8Ee-H25Luli9ecQ" target="_rkLegMtDEe-H25Luli9ecQ"/>
         <transition xmi:type="uml:Transition" xmi:id="_yvCisMtDEe-H25Luli9ecQ" name="Ok" source="_L5wtcMs-Ee-H25Luli9ecQ" target="_rkLegMtDEe-H25Luli9ecQ"/>
         <transition xmi:type="uml:Transition" xmi:id="_6YtCwMtDEe-H25Luli9ecQ" name="inRegola" source="_rkLegMtDEe-H25Luli9ecQ" target="_mWpCoMtDEe-H25Luli9ecQ"/>
-        <transition xmi:type="uml:Transition" xmi:id="_Pus6gMtFEe-H25Luli9ecQ" name="accessoNegato" source="_octUEMs_Ee-H25Luli9ecQ" target="_0TB0wNZWEe-AzYvIoBvuOQ"/>
-        <transition xmi:type="uml:Transition" xmi:id="_B1AMANZXEe-AzYvIoBvuOQ" source="_0TB0wNZWEe-AzYvIoBvuOQ" target="_LlBvYMtFEe-H25Luli9ecQ"/>
+        <transition xmi:type="uml:Transition" xmi:id="_Pus6gMtFEe-H25Luli9ecQ" source="_octUEMs_Ee-H25Luli9ecQ" target="_0TB0wNZWEe-AzYvIoBvuOQ"/>
+        <transition xmi:type="uml:Transition" xmi:id="_B1AMANZXEe-AzYvIoBvuOQ" name="accessoConsentito" source="_0TB0wNZWEe-AzYvIoBvuOQ" target="_LlBvYMtFEe-H25Luli9ecQ"/>
         <subvertex xmi:type="uml:Pseudostate" xmi:id="_-zPPoMhqEe-jBbQjgq7ZNg" name="Start"/>
         <subvertex xmi:type="uml:State" xmi:id="_Kg-pIMhrEe-jBbQjgq7ZNg" name="veicoloRilevato"/>
         <subvertex xmi:type="uml:State" xmi:id="_dEN60MhrEe-jBbQjgq7ZNg" name="NotificaProblema"/>
