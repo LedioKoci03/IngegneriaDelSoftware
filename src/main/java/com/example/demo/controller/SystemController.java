@@ -2,7 +2,6 @@ package com.example.demo.controller;
 
 import com.example.demo.service.SystemService;
 import com.example.demo.src_gen.diagrammi_uml.Sistema;
-import com.example.demo.src_gen.diagrammi_uml.Utente;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -49,9 +48,15 @@ public class SystemController {
         return (ResponseEntity<?>) ResponseEntity.ok("Sistema eliminato!");
     }
 
-    @GetMapping("/controllaPagamentoUtente/{id}")
-    public ResponseEntity<?> controllaPagamento(@PathVariable("id") Integer id){
+    @GetMapping("/controllaAbbonamento/{id}")
+    public ResponseEntity<?> controllaAbbonamento(@PathVariable("id") Integer id){
 
-
+        if(systemService.controllaAbbonamento(id)){
+            return (ResponseEntity<?>) ResponseEntity.ok("Abbonamento presente!");
+        }else{
+            systemService.addebitaMulta(id);
+            return(ResponseEntity<?>) ResponseEntity.ok("Abbonamento non presente, addebito multa!");
+        }
     }
+
 }

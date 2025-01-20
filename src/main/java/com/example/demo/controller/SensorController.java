@@ -56,4 +56,17 @@ public class SensorController {
         return (ResponseEntity<?>) ResponseEntity.ok("Sensore eliminato!");
     }
 
+    @GetMapping("/controllaPagamentoVisitatore/{id}")
+    public ResponseEntity<?> controllaPagamento(@PathVariable("id") Integer id){
+
+        boolean var = sensorService.controllaPagamento(id);
+
+        if(var){
+            return (ResponseEntity<?>) ResponseEntity.ok("Pagamento effettuato!");
+        }else{
+            return (ResponseEntity<?>) ResponseEntity.ok("Pagamento non effettuato!");
+        }
+
+    }
+
 }

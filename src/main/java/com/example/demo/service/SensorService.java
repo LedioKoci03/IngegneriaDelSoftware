@@ -41,4 +41,15 @@ public class SensorService {
         }
 
     }
+
+    public boolean controllaPagamento(Integer id){
+
+        VisitatoreOccasionale visitatore = visitatoreService.getById(id).get();
+
+        if(visitatore.pagato){
+            return true;
+        }else{
+            return false;
+        }
+    }
 }

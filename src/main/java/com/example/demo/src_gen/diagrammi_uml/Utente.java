@@ -39,5 +39,4 @@ public class Utente {
 
     public void richiediAbbonamento(){};
 
-    public void richiediAccessoQR(){};
 }
