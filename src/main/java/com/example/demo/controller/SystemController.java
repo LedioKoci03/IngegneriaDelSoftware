@@ -40,7 +40,6 @@ public class SystemController {
         return null;
     }
 
-    @
 
     @DeleteMapping("/eliminaSistema/{id}")
     public ResponseEntity<?> eliminaSistema(@PathVariable("id") Integer id){
@@ -48,5 +47,11 @@ public class SystemController {
         systemService.eliminaSistema(id);
 
         return (ResponseEntity<?>) ResponseEntity.ok("Sistema eliminato!");
+    }
+
+    @GetMapping("/controllaPagamentoUtente/{id}")
+    public ResponseEntity<?> controllaPagamento(@PathVariable("id") Integer id){
+
+
     }
 }

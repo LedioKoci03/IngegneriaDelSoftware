@@ -25,4 +25,9 @@ public class SystemService {
     public void eliminaSistema(Integer id){
         systemRepository.deleteById(id);
     }
+
+    public String controllaPagamento(Integer id){
+
+
+    }
 }

@@ -45,4 +45,12 @@ public class VisitatoreController {
 
         return (ResponseEntity<?>) ResponseEntity.ok("Visitatore eliminato!");
     }
+
+    @PatchMapping("/pagaTariffa/{id}")
+    public ResponseEntity<?> pagaTariffa(@PathVariable("id") Integer id){
+
+        visitatoreService.pagaTariffa(id);
+
+        return (ResponseEntity<?>) ResponseEntity.ok("Tariffa pagata!");
+    }
 }

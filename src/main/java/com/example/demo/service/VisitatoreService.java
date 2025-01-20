@@ -28,4 +28,14 @@ public class VisitatoreService {
     public void eliminaVisitatore(Integer id){
         visitatoreRepository.deleteById(id);
     }
+
+    public void pagaTariffa(Integer id){
+
+        VisitatoreOccasionale visitatore = visitatoreRepository.findById(id).get();
+
+        visitatore.spesa = visitatore.spesa+25;
+        visitatore.pagato = true;
+
+        registraVisitatore(visitatore);
+    }
 }

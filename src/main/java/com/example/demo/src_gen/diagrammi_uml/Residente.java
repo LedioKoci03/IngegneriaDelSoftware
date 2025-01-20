@@ -17,7 +17,7 @@ import lombok.*;
 public class Residente {
 
   @Column(name = "tipoAbb")
-  public TipoAbb tipo;
+  public String tipo;
 
   @Column(name = "tempo")
   public String tempo;
