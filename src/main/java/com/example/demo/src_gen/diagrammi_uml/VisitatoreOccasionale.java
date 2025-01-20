@@ -24,6 +24,12 @@ public class VisitatoreOccasionale {
     @Column(name = "tempo")
     public Integer tempo;
 
+    @Column(name = "spesa")
+    public Integer spesa;
+
+    @Column(name = "pagato")
+    public boolean pagato;
+
     public void pagaTariffaAggiuntiva(){}
 
     public void estendiTempo(){}

@@ -1,8 +1,6 @@
 package com.example.demo.service;
 
-import com.example.demo.repository.UserRepository;
 import com.example.demo.repository.VisitatoreRepository;
-import com.example.demo.src_gen.diagrammi_uml.Utente;
 import com.example.demo.src_gen.diagrammi_uml.VisitatoreOccasionale;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

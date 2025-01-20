@@ -29,6 +29,12 @@ public class Utente {
     @Column(name = "tipo")
     public String tipo;
 
+    @Column(name = "targa")
+    public String targa;
+
+    @Column(name = "multa")
+    public boolean multa;
+
     public void registraVeicolo() {}
 
     public void richiediAbbonamento(){};

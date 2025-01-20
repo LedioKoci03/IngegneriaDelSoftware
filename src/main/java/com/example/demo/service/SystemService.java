@@ -2,7 +2,6 @@ package com.example.demo.service;
 
 import com.example.demo.repository.SystemRepository;
 import com.example.demo.src_gen.diagrammi_uml.Sistema;
-import com.example.demo.src_gen.diagrammi_uml.Utente;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

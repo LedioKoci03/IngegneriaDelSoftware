@@ -14,8 +14,10 @@ import lombok.*;
 @NoArgsConstructor
 @Data
 @Table(name = "\"residente\"")
-public class Residente
- {
+public class Residente {
+
+  @Column(name = "tipoAbb")
+  public TipoAbb tipo;
 
   @Column(name = "tempo")
   public String tempo;

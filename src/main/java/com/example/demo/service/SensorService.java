@@ -2,11 +2,9 @@ package com.example.demo.service;
 
 import com.example.demo.repository.SensorRepository;
 import com.example.demo.src_gen.diagrammi_uml.Sensore;
-import com.example.demo.src_gen.diagrammi_uml.Utente;
 import com.example.demo.src_gen.diagrammi_uml.VisitatoreOccasionale;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.PostMapping;
 
 import java.util.Optional;
 
@@ -37,9 +35,9 @@ public class SensorService {
         if(visitatore.tempo <= 200 && visitatore.tempo >= 0){
             return "Visitatore ancora ammesso";
         }else {
-            visitatore.tempo = (visitatore.tempo+50);
+            visitatore.spesa = (visitatore.spesa+50);
             visitatoreService.registraVisitatore(visitatore);
-            return "Visitatore da addebitare tariffa aggiuntiva!";
+            return "Visitatore addebitato!";
         }
 
     }
