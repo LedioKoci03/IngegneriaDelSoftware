@@ -3,8 +3,6 @@ package com.example.demo.src_gen.diagrammi_uml;
 import jakarta.persistence.*;
 import lombok.*;
 
-@Setter
-@Getter
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
@@ -17,6 +15,7 @@ public class Utente {
     @Column(name = "id")
     public Integer id;
 
+    @Setter
     @Column(name = "nome")
     public String nome;
 
@@ -34,6 +33,58 @@ public class Utente {
 
     @Column(name = "multa")
     public boolean multa;
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setCognome(String cognome) {
+        this.cognome = cognome;
+    }
+
+    public void setEta(Integer eta) {
+        this.eta = eta;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public void setTarga(String targa) {
+        this.targa = targa;
+    }
+
+    public void setMulta(boolean multa) {
+        this.multa = multa;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getCognome() {
+        return cognome;
+    }
+
+    public boolean isMulta() {
+        return multa;
+    }
+
+    public String getTarga() {
+        return targa;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public Integer getEta() {
+        return eta;
+    }
+
+    public Integer getId(){
+        return id;
+    }
 
     public void registraVeicolo() {}
 
