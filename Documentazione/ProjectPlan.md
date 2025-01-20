@@ -35,7 +35,7 @@ Regole e funzionalità principali:
 
 2.	I visitatori occasionali devono pagare una tariffa oraria tramite un’applicazione mobile o un terminale fisico installato nelle vicinanze dei parcheggi.
 
-3.	Ogni parcheggio è dotato di sensori per rilevare la presenza di veicoli e per verificare se il pagamento è stato effettuato.
+3.	Ogni parcheggio è dotato di sensori per verificare se il pagamento è stato effettuato.
 
 4.	L’accesso al parcheggio è gestito tramite un QRCode univoco fornito dal sistema, che associa il veicolo al profilo dell’utente.(se implementabile).
 
