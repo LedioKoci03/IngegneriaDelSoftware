@@ -57,7 +57,7 @@ Il progetto mira a sviluppare un sistema per ottimizzare la gestione dei parcheg
 Obiettivi principali:
 - Ottimizzazione degli spazi disponibili.<br>
 - Pagamenti digitali per visitatori occasionali.<br>
-- Sensori e QRCode per il monitoraggio automatizzato.<br>
+- Sensori per il monitoraggio automatizzato.<br>
 
 ## 2. Modello di processo  <a name="p2"></a>
 
