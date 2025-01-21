@@ -26,4 +26,23 @@ public class Residente {
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   public Integer id;
 
+  public String getTipo() {
+    return tipo;
+  }
+
+  public String getTempo() {
+    return tempo;
+  }
+
+  public Integer getId() {
+    return id;
+  }
+
+  public void setTipo(String tipo) {
+    this.tipo = tipo;
+  }
+
+  public void setTempo(String tempo) {
+    this.tempo = tempo;
+  }
 }

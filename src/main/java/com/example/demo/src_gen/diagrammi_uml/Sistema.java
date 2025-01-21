@@ -24,6 +24,18 @@ public class Sistema {
     @Column(name = "nome")
     public String nome;
 
+    public Integer getId() {
+        return id;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
     public void registraUtente(){}
 
     public void generaQR(){}
