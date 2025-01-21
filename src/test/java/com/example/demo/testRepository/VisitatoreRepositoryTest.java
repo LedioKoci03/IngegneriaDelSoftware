@@ -3,17 +3,19 @@ package com.example.demo.testRepository;
 import com.example.demo.repository.VisitatoreRepository;
 import com.example.demo.src_gen.diagrammi_uml.VisitatoreOccasionale;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
+import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.Optional;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.*;
 
-@SpringBootTest
-@AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.ANY)
+@RunWith(SpringRunner.class)
+@DataJpaTest
 public class VisitatoreRepositoryTest {
 
     @Autowired
@@ -22,11 +24,11 @@ public class VisitatoreRepositoryTest {
     @Test
     public void testSaveVisitatore() {
         VisitatoreOccasionale  visitatore = new VisitatoreOccasionale();
-        visitatore.setSpesa(40);
+        visitatore.setPagato(true);
 
         VisitatoreOccasionale savedV = visitatoreRepository.save(visitatore);
 
         assertNotNull(savedV.getId());
-        assertEquals(Optional.of(40), savedV.getSpesa());
+        assertTrue(savedV.pagato);
     }
 }
