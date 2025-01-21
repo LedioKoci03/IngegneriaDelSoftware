@@ -7,8 +7,6 @@ package com.example.demo.src_gen.diagrammi_uml;
 import jakarta.persistence.*;
 import lombok.*;
 
-@Setter
-@Getter
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
@@ -24,6 +22,18 @@ public class Sensore
 
   @Column(name = "nome")
   public String nome;
+
+  public String getNome() {
+   return nome;
+  }
+
+  public Integer getId() {
+   return id;
+  }
+
+  public void setNome(String nome) {
+   this.nome = nome;
+  }
 
   public void rilevaVeicolo(){}
 

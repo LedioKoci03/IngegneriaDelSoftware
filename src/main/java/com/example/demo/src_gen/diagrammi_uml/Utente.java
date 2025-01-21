@@ -15,7 +15,6 @@ public class Utente {
     @Column(name = "id")
     public Integer id;
 
-    @Setter
     @Column(name = "nome")
     public String nome;
 

@@ -7,8 +7,6 @@ package com.example.demo.src_gen.diagrammi_uml;
 import jakarta.persistence.*;
 import lombok.*;
 
-@Setter
-@Getter
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
@@ -29,6 +27,34 @@ public class VisitatoreOccasionale {
 
     @Column(name = "pagato")
     public boolean pagato;
+
+    public Integer getId() {
+        return id;
+    }
+
+    public Integer getTempo() {
+        return tempo;
+    }
+
+    public Integer getSpesa() {
+        return spesa;
+    }
+
+    public boolean isPagato() {
+        return pagato;
+    }
+
+    public void setSpesa(Integer spesa) {
+        this.spesa = spesa;
+    }
+
+    public void setTempo(Integer tempo) {
+        this.tempo = tempo;
+    }
+
+    public void setPagato(boolean pagato) {
+        this.pagato = pagato;
+    }
 
     public void pagaTariffaAggiuntiva(){}
 
