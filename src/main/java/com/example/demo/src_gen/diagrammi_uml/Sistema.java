@@ -36,6 +36,10 @@ public class Sistema {
         this.nome = nome;
     }
 
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
     public void registraUtente(){}
 
     public void generaQR(){}

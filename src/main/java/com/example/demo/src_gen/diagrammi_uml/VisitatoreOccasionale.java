@@ -44,6 +44,10 @@ public class VisitatoreOccasionale {
         return pagato;
     }
 
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
     public void setSpesa(Integer spesa) {
         this.spesa = spesa;
     }
