@@ -199,6 +199,7 @@ Software e tool:
 - Eclipse: IDE utilizzato per poter lavorare allo sviluppo del progetto (versione 2024-09)
 - Papyrus: utile per poter realizzare i diagrammi UML da cui poter generare il codice iniziale
 - libreria db: MySql, permette di poter implementare un database
+- Postman: software per utilizzare e simulare il backend con i suoi endpoint
 
 Per quanto riguarda i dispositivi, il software verrà sviluppato su due sistemi operativi, ovvero:
 
