@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_npGXQMUoEe-ZuK7SMw5DZQ" name="DIAGRAMMI UML PROGETTO">
-  <ownedComment xmi:type="uml:Comment" xmi:id="_Y1MCcMuIEe-Mx6PjBOP1bg">
-    <body>da rifinire più avanti&#xD;
-</body>
-  </ownedComment>
-  <ownedComment xmi:type="uml:Comment" xmi:id="_A5ceMMuMEe-Mx6PjBOP1bg">
-    <body>da completare&#xD;
-</body>
-  </ownedComment>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_npGXQMUoEe-ZuK7SMw5DZQ" name="DIAGRAMMI UML PROGETTO" visibility="package">
   <packageImport xmi:type="uml:PackageImport" xmi:id="_nvRQsMUoEe-ZuK7SMw5DZQ">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
@@ -148,16 +140,11 @@ parcheggio al completo&#xD;
     <ownedEnd xmi:type="uml:Property" xmi:id="_IHyTEcXMEe-crrsLXs7nyQ" name="sistema pagamento" type="_QB9bsMXJEe-crrsLXs7nyQ" association="_IHwd4MXMEe-crrsLXs7nyQ"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Model" xmi:id="_HwFbQMdtEe-_hqqmhjdMHg" visibility="public">
-    <ownedComment xmi:type="uml:Comment" xmi:id="_52g8sMs4Ee-MqqM8iPdkwg">
-      <body>DA SISTEMARE POI IN FASE DI IMPLEMENTAZIONE:&#xD;
-1 CARDINALITA'&#xD;
-2 IN E OUT OPERAZIONI&#xD;
-3 RITORNO OPERAZIONI&#xD;
-4 CLASSI ASSOCIATIVE&#xD;
-ECC....</body>
-    </ownedComment>
     <packagedElement xmi:type="uml:Class" xmi:id="_LFc0kMdtEe-_hqqmhjdMHg" name="SistemaParcheggio">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_FN91MMrNEe-sv4XfQjMMWw" name="COD">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_FN91MMrNEe-sv4XfQjMMWw" name="Id">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_QyyfgNaPEe-xP8rd1D0ftA" name="Nome" visibility="public">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_cqG2wMdwEe-_hqqmhjdMHg" name="registraUtente" concurrency="guarded"/>
@@ -177,8 +164,8 @@ ECC....</body>
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jTpEwMrMEe-sv4XfQjMMWw" value="*"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_-Es-YMrKEe-sv4XfQjMMWw" name="CodFiscale" visibility="public" aggregation="shared">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_-Es-YMrKEe-sv4XfQjMMWw" name="Id" visibility="public" aggregation="shared">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_EnLM4MrLEe-sv4XfQjMMWw" name="Età" visibility="public" isUnique="false" aggregation="shared">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
@@ -186,8 +173,12 @@ ECC....</body>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_K1xdIMrLEe-sv4XfQjMMWw" name="Tipo" visibility="public" isUnique="false" aggregation="shared">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_TKZeYMrOEe-sv4XfQjMMWw" name="Tel" visibility="public" isUnique="false">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_vojvQNaOEe-xP8rd1D0ftA" name="Targa">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_b-e75daPEe-xP8rd1D0ftA" name="rileva" type="_Z-LjgMrHEe-sv4XfQjMMWw" association="_b-e74NaPEe-xP8rd1D0ftA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_r-EoQNaTEe-TloBfhy56Pg" name="Multa">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
       </ownedAttribute>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_Y0EOwMdvEe-_hqqmhjdMHg" name="registraVeicolo" concurrency="guarded"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_MvVjoMrHEe-sv4XfQjMMWw" name="richiediAbbonamento"/>
@@ -195,27 +186,21 @@ ECC....</body>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_LtlLkMdtEe-_hqqmhjdMHg" name="Residente">
       <generalization xmi:type="uml:Generalization" xmi:id="_2ziQIMrFEe-sv4XfQjMMWw" general="_LbpHAMdtEe-_hqqmhjdMHg"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_lQujwMdvEe-_hqqmhjdMHg" name="Abbonamento" type="_MBlssMdtEe-_hqqmhjdMHg"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lQujwMdvEe-_hqqmhjdMHg" name="TipoAbb" type="_jkThgMrNEe-sv4XfQjMMWw"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_3hTfoMrGEe-sv4XfQjMMWw" name="Tempo">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </ownedAttribute>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_MBlssMdtEe-_hqqmhjdMHg" name="Abbonamento">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_Lvz40MdwEe-_hqqmhjdMHg" name="TipoAbb" visibility="public" isUnique="false" aggregation="shared">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_L6Mj4MdwEe-_hqqmhjdMHg" name="Durata" visibility="public" isUnique="false" aggregation="shared">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_XLEJYMrMEe-sv4XfQjMMWw" name="ID" visibility="public" aggregation="shared">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_MZDxgMdtEe-_hqqmhjdMHg" name="VisitatoreOccasionale">
       <generalization xmi:type="uml:Generalization" xmi:id="_5wphgMrFEe-sv4XfQjMMWw" general="_LbpHAMdtEe-_hqqmhjdMHg"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_ngUgkMrMEe-sv4XfQjMMWw" name="Abbonamento" type="_MBlssMdtEe-_hqqmhjdMHg" isUnique="false"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_oH7TIMrMEe-sv4XfQjMMWw" name="Tempo" isUnique="false">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_u2AbgNaPEe-xP8rd1D0ftA" name="Spesa">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_S-hacNaTEe-TloBfhy56Pg" name="pagato">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
       </ownedAttribute>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_wZ_XMMdvEe-_hqqmhjdMHg" name="pagaTariffaAggiuntiva"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_w3WBkMdvEe-_hqqmhjdMHg" name="estendiTempo"/>
@@ -224,51 +209,33 @@ ECC....</body>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_huD48MrKEe-sv4XfQjMMWw" name="closeSession"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_co9x8MrLEe-sv4XfQjMMWw" name="pagaTariffaOraria"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_OQ3nsMdtEe-_hqqmhjdMHg" name="Veicolo">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_5dL2AMdvEe-_hqqmhjdMHg" name="Targa" visibility="public" aggregation="shared">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_5m-rMMdvEe-_hqqmhjdMHg" name="Modello" visibility="public" isUnique="false" aggregation="shared">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_5tmQkMdvEe-_hqqmhjdMHg" name="Proprietario" visibility="public" isUnique="false" aggregation="shared">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </ownedAttribute>
-    </packagedElement>
     <packagedElement xmi:type="uml:StateMachine" xmi:id="_npGEQMhqEe-jBbQjgq7ZNg" name="SistemaParcheggio" visibility="package" classifierBehavior="_MmZ6kMtKEe-ox4bjJOaasQ">
       <ownedBehavior xmi:type="uml:Interaction" xmi:id="_MmZ6kMtKEe-ox4bjJOaasQ" name="accessoParcheggio" classifierBehavior="_T0AwwMtKEe-ox4bjJOaasQ">
-        <ownedComment xmi:type="uml:Comment" xmi:id="_POTcMMuSEe-k3egVorLEPg">
-          <body>da rivedere più avanti&#xD;
-</body>
-        </ownedComment>
-        <ownedComment xmi:type="uml:Comment" xmi:id="_o_YmcNXLEe-Sdr1pkpAa-w">
-          <body>da completare</body>
-        </ownedComment>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_iOQ7kMuREe-k3egVorLEPg" name="" type="_MmZ6kMtKEe-ox4bjJOaasQ"/>
-        <ownedBehavior xmi:type="uml:Activity" xmi:id="_T0AwwMtKEe-ox4bjJOaasQ" name="PagamentoParcheggio" node="_xm6woNZSEe-AzYvIoBvuOQ _oUXf0NZVEe-AzYvIoBvuOQ _x5gOENZVEe-AzYvIoBvuOQ __ShdoNZVEe-AzYvIoBvuOQ _KDiJINZWEe-AzYvIoBvuOQ _RrxF0NZWEe-AzYvIoBvuOQ _Tl2M4NZWEe-AzYvIoBvuOQ _gptr0NZWEe-AzYvIoBvuOQ _oGcjINZWEe-AzYvIoBvuOQ">
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_T0AwwMtKEe-ox4bjJOaasQ" name="PagamentoParcheggio" node="_xm6woNZSEe-AzYvIoBvuOQ _oUXf0NZVEe-AzYvIoBvuOQ _x5gOENZVEe-AzYvIoBvuOQ __ShdoNZVEe-AzYvIoBvuOQ _RrxF0NZWEe-AzYvIoBvuOQ _Tl2M4NZWEe-AzYvIoBvuOQ _gptr0NZWEe-AzYvIoBvuOQ _oGcjINZWEe-AzYvIoBvuOQ _42BEIN_gEe-rx4x50Wpiwg">
           <edge xmi:type="uml:ControlFlow" xmi:id="_qah7ENZVEe-AzYvIoBvuOQ" target="_oUXf0NZVEe-AzYvIoBvuOQ" source="_xm6woNZSEe-AzYvIoBvuOQ"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_0JXX4NZVEe-AzYvIoBvuOQ" target="_x5gOENZVEe-AzYvIoBvuOQ" source="_oUXf0NZVEe-AzYvIoBvuOQ"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="__USYMNZVEe-AzYvIoBvuOQ" target="__ShdoNZVEe-AzYvIoBvuOQ" source="_x5gOENZVEe-AzYvIoBvuOQ"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_MRSaINZWEe-AzYvIoBvuOQ" name="UtenteResidente?" target="_KDiJINZWEe-AzYvIoBvuOQ" source="__ShdoNZVEe-AzYvIoBvuOQ"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_VcMDcNZWEe-AzYvIoBvuOQ" name="else" target="_RrxF0NZWEe-AzYvIoBvuOQ" source="__ShdoNZVEe-AzYvIoBvuOQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_MRSaINZWEe-AzYvIoBvuOQ" name="[UtenteResidente]" target="_42BEIN_gEe-rx4x50Wpiwg" source="__ShdoNZVEe-AzYvIoBvuOQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_VcMDcNZWEe-AzYvIoBvuOQ" name="[else]" target="_RrxF0NZWEe-AzYvIoBvuOQ" source="__ShdoNZVEe-AzYvIoBvuOQ"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_Y032gNZWEe-AzYvIoBvuOQ" target="_Tl2M4NZWEe-AzYvIoBvuOQ" source="_RrxF0NZWEe-AzYvIoBvuOQ"/>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_gq4JcNZWEe-AzYvIoBvuOQ" target="_gptr0NZWEe-AzYvIoBvuOQ" source="_KDiJINZWEe-AzYvIoBvuOQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_gq4JcNZWEe-AzYvIoBvuOQ" target="_gptr0NZWEe-AzYvIoBvuOQ" source="_42BEIN_gEe-rx4x50Wpiwg"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_mc3WMNZWEe-AzYvIoBvuOQ" target="_gptr0NZWEe-AzYvIoBvuOQ" source="_Tl2M4NZWEe-AzYvIoBvuOQ"/>
           <edge xmi:type="uml:ControlFlow" xmi:id="_oITkUNZWEe-AzYvIoBvuOQ" target="_oGcjINZWEe-AzYvIoBvuOQ" source="_gptr0NZWEe-AzYvIoBvuOQ"/>
           <node xmi:type="uml:InitialNode" xmi:id="_xm6woNZSEe-AzYvIoBvuOQ" name="Start" outgoing="_qah7ENZVEe-AzYvIoBvuOQ"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_oUXf0NZVEe-AzYvIoBvuOQ" name="accedeParcheggio" incoming="_qah7ENZVEe-AzYvIoBvuOQ" outgoing="_0JXX4NZVEe-AzYvIoBvuOQ"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_x5gOENZVEe-AzYvIoBvuOQ" name="controllaUtente" incoming="_0JXX4NZVEe-AzYvIoBvuOQ" outgoing="__USYMNZVEe-AzYvIoBvuOQ"/>
           <node xmi:type="uml:DecisionNode" xmi:id="__ShdoNZVEe-AzYvIoBvuOQ" name="" incoming="__USYMNZVEe-AzYvIoBvuOQ" outgoing="_MRSaINZWEe-AzYvIoBvuOQ _VcMDcNZWEe-AzYvIoBvuOQ"/>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_KDiJINZWEe-AzYvIoBvuOQ" name="accessoCorresso" incoming="_MRSaINZWEe-AzYvIoBvuOQ" outgoing="_gq4JcNZWEe-AzYvIoBvuOQ"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_RrxF0NZWEe-AzYvIoBvuOQ" name="richiestaPagamento" incoming="_VcMDcNZWEe-AzYvIoBvuOQ" outgoing="_Y032gNZWEe-AzYvIoBvuOQ"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_Tl2M4NZWEe-AzYvIoBvuOQ" name="generazioneCodice" incoming="_Y032gNZWEe-AzYvIoBvuOQ" outgoing="_mc3WMNZWEe-AzYvIoBvuOQ"/>
           <node xmi:type="uml:JoinNode" xmi:id="_gptr0NZWEe-AzYvIoBvuOQ" incoming="_gq4JcNZWEe-AzYvIoBvuOQ _mc3WMNZWEe-AzYvIoBvuOQ" outgoing="_oITkUNZWEe-AzYvIoBvuOQ"/>
           <node xmi:type="uml:ActivityFinalNode" xmi:id="_oGcjINZWEe-AzYvIoBvuOQ" name="End" incoming="_oITkUNZWEe-AzYvIoBvuOQ"/>
+          <node xmi:type="uml:AcceptEventAction" xmi:id="_42BEIN_gEe-rx4x50Wpiwg" name="AccessoOk" incoming="_MRSaINZWEe-AzYvIoBvuOQ" outgoing="_gq4JcNZWEe-AzYvIoBvuOQ"/>
         </ownedBehavior>
-        <lifeline xmi:type="uml:Lifeline" xmi:id="_YoFg8MuQEe-k3egVorLEPg" name="Utente" coveredBy="_oMBv8MuQEe-k3egVorLEPg"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_YoFg8MuQEe-k3egVorLEPg" name="Utente" coveredBy="_oMBv8MuQEe-k3egVorLEPg _vxkdkN_fEe-rx4x50Wpiwg _4iNMwd_fEe-rx4x50Wpiwg"/>
         <lifeline xmi:type="uml:Lifeline" xmi:id="_Zr2EAMuQEe-k3egVorLEPg" name="Sensore" coveredBy="_oMCXAMuQEe-k3egVorLEPg"/>
         <lifeline xmi:type="uml:Lifeline" xmi:id="_bp_LsMuQEe-k3egVorLEPg" name="SistemaParcheggio"/>
-        <lifeline xmi:type="uml:Lifeline" xmi:id="_dB-5YMuQEe-k3egVorLEPg" name="SistemaPagamento"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_dB-5YMuQEe-k3egVorLEPg" name="SistemaPagamento" coveredBy="_vxioYN_fEe-rx4x50Wpiwg _4iNMwN_fEe-rx4x50Wpiwg"/>
         <lifeline xmi:type="uml:Lifeline" xmi:id="_iOPtcMuREe-k3egVorLEPg" name="" represents="_iOQ7kMuREe-k3egVorLEPg"/>
         <lifeline xmi:type="uml:Lifeline" xmi:id="_4YvSUMuUEe-k3egVorLEPg" name="SistemaParcheggio" coveredBy="_REsZ0NXJEe-8if31u0f86w _REjP4NXJEe-8if31u0f86w _SfCNsdXFEe-sWZQUX33aJg _Eg-V8NZKEe-GDsWhPFDhNw _EhLxUNZKEe-GDsWhPFDhNw _bIs_8NXKEe-KWIYY73UvSA _ZCEpMNZPEe-GDsWhPFDhNw _oFowcNXKEe-KWIYY73UvSA _s9Sb4dXKEe-KWIYY73UvSA _pTg1oNXGEe-sWZQUX33aJg _REsZ0dXJEe-8if31u0f86w _qUNLsNXIEe-sWZQUX33aJg"/>
         <lifeline xmi:type="uml:Lifeline" xmi:id="_7SWjwMuUEe-k3egVorLEPg" name="Sensore" coveredBy="_IoMrcdXFEe-sWZQUX33aJg _SfCNsNXFEe-sWZQUX33aJg _TCg4wNXGEe-sWZQUX33aJg _HaCPMNXFEe-sWZQUX33aJg"/>
@@ -315,10 +282,13 @@ ECC....</body>
         <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_CfUzQNXGEe-sWZQUX33aJg"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_oMBv8MuQEe-k3egVorLEPg" name="Message6SendEvent" covered="_YoFg8MuQEe-k3egVorLEPg" message="_oL0UkMuQEe-k3egVorLEPg"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_oMCXAMuQEe-k3egVorLEPg" name="Message6ReceiveEvent" covered="_Zr2EAMuQEe-k3egVorLEPg" message="_oL0UkMuQEe-k3egVorLEPg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vxioYN_fEe-rx4x50Wpiwg" name="Message52SendEvent" covered="_dB-5YMuQEe-k3egVorLEPg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vxkdkN_fEe-rx4x50Wpiwg" name="Message52ReceiveEvent" covered="_YoFg8MuQEe-k3egVorLEPg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4iNMwN_fEe-rx4x50Wpiwg" name="Message54SendEvent" covered="_dB-5YMuQEe-k3egVorLEPg" message="_4iLXkN_fEe-rx4x50Wpiwg"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4iNMwd_fEe-rx4x50Wpiwg" name="Message54ReceiveEvent" covered="_YoFg8MuQEe-k3egVorLEPg" message="_4iLXkN_fEe-rx4x50Wpiwg"/>
         <message xmi:type="uml:Message" xmi:id="_oL0UkMuQEe-k3egVorLEPg" name="1: AccedeParcheggio()" messageSort="asynchCall" receiveEvent="_oMCXAMuQEe-k3egVorLEPg" sendEvent="_oMBv8MuQEe-k3egVorLEPg"/>
         <message xmi:type="uml:Message" xmi:id="_717HsMuQEe-k3egVorLEPg" name="2: inviaTarga()" messageSort="asynchCall"/>
         <message xmi:type="uml:Message" xmi:id="_Fx9TAMuREe-k3egVorLEPg" name="3:verificaStato()" messageSort="asynchCall"/>
-        <message xmi:type="uml:Message" xmi:id="_cuOacMuREe-k3egVorLEPg" name="4: generaQr/Notifica()" messageSort="asynchCall"/>
         <message xmi:type="uml:Message" xmi:id="_SfBmoNXFEe-sWZQUX33aJg" name="LeggeTarga" messageSort="asynchCall" receiveEvent="_SfCNsdXFEe-sWZQUX33aJg" sendEvent="_SfCNsNXFEe-sWZQUX33aJg"/>
         <message xmi:type="uml:Message" xmi:id="_TCfDkNXGEe-sWZQUX33aJg" name="accedeParcheggio" messageSort="asynchCall" receiveEvent="_TCg4wNXGEe-sWZQUX33aJg" sendEvent="_TCgRsNXGEe-sWZQUX33aJg"/>
         <message xmi:type="uml:Message" xmi:id="_pTgOkNXGEe-sWZQUX33aJg" name="generaQrCode" messageSort="asynchCall" receiveEvent="_pThcsNXGEe-sWZQUX33aJg" sendEvent="_pTg1oNXGEe-sWZQUX33aJg"/>
@@ -326,6 +296,7 @@ ECC....</body>
         <message xmi:type="uml:Message" xmi:id="_bIm5UNXKEe-KWIYY73UvSA" name="accessoConsentito" messageSort="reply" receiveEvent="_bItnANXKEe-KWIYY73UvSA" sendEvent="_bIs_8NXKEe-KWIYY73UvSA"/>
         <message xmi:type="uml:Message" xmi:id="_oFniUNXKEe-KWIYY73UvSA" name="richiedePagamento" receiveEvent="_oFpXgNXKEe-KWIYY73UvSA" sendEvent="_oFowcNXKEe-KWIYY73UvSA"/>
         <message xmi:type="uml:Message" xmi:id="_s9RNwNXKEe-KWIYY73UvSA" name="confermaPagamento" messageSort="reply" receiveEvent="_s9Sb4dXKEe-KWIYY73UvSA" sendEvent="_s9Sb4NXKEe-KWIYY73UvSA"/>
+        <message xmi:type="uml:Message" xmi:id="_4iLXkN_fEe-rx4x50Wpiwg" name="4: Notifica()/Autorizza()" messageSort="asynchCall" receiveEvent="_4iNMwd_fEe-rx4x50Wpiwg" sendEvent="_4iNMwN_fEe-rx4x50Wpiwg"/>
       </ownedBehavior>
       <region xmi:type="uml:Region" xmi:id="_n8SGAMhqEe-jBbQjgq7ZNg" name="Region1">
         <transition xmi:type="uml:Transition" xmi:id="_WlXBAMhrEe-jBbQjgq7ZNg" name="letturaTarga" source="_-zPPoMhqEe-jBbQjgq7ZNg" target="_Kg-pIMhrEe-jBbQjgq7ZNg"/>
@@ -359,6 +330,9 @@ ECC....</body>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_Mk74MMrMEe-sv4XfQjMMWw" name="ID" visibility="public" aggregation="shared">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_WT5-sNaPEe-xP8rd1D0ftA" name="Nome">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_czb5YMrHEe-sv4XfQjMMWw" name="rilevaVeicolo"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_c90kcMrHEe-sv4XfQjMMWw" name="leggiTarga"/>
     </packagedElement>
@@ -366,16 +340,13 @@ ECC....</body>
       <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_mivokMrNEe-sv4XfQjMMWw" name="Mensile"/>
       <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_o-c2AMrNEe-sv4XfQjMMWw" name="Annuale"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_8axEwMrNEe-sv4XfQjMMWw" name="Indirizzo">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_BPAP0MrOEe-sv4XfQjMMWw" name="Via" visibility="public" aggregation="shared">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_Ba3hkMrOEe-sv4XfQjMMWw" name="Civico" visibility="public" aggregation="shared">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_IVvpAMrOEe-sv4XfQjMMWw" name="Cap" visibility="public" aggregation="shared">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </ownedAttribute>
+    <packagedElement xmi:type="uml:Association" xmi:id="_b-e74NaPEe-xP8rd1D0ftA" memberEnd="_b-e75daPEe-xP8rd1D0ftA _b-e749aPEe-xP8rd1D0ftA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_b-e74daPEe-xP8rd1D0ftA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_b-e74taPEe-xP8rd1D0ftA" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_b-e749aPEe-xP8rd1D0ftA" type="_LbpHAMdtEe-_hqqmhjdMHg" association="_b-e74NaPEe-xP8rd1D0ftA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_b-e75NaPEe-xP8rd1D0ftA" value="*"/>
+      </ownedEnd>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_hHVjQMhxEe-jmLID5ur1nw" name="Parcheggio"/>
@@ -401,24 +372,6 @@ ECC....</body>
     <ownedEnd xmi:type="uml:Property" xmi:id="_Teh9Usq4Ee-dafbWPXGipA" name="notifica parcheggio pieno" type="_Om2csMq4Ee-dafbWPXGipA" association="_TegvMMq4Ee-dafbWPXGipA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_TeikYMq4Ee-dafbWPXGipA" name="sistema" type="_QB9bsMXJEe-crrsLXs7nyQ" association="_TegvMMq4Ee-dafbWPXGipA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_mRQagMrOEe-sv4XfQjMMWw" memberEnd="_mRS2wsrOEe-sv4XfQjMMWw _mRcnwMrOEe-sv4XfQjMMWw" navigableOwnedEnd="_mRS2wsrOEe-sv4XfQjMMWw">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mRS2wMrOEe-sv4XfQjMMWw" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mRS2wcrOEe-sv4XfQjMMWw" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_mRcnwMrOEe-sv4XfQjMMWw" name="abita" type="_LbpHAMdtEe-_hqqmhjdMHg" association="_mRQagMrOEe-sv4XfQjMMWw">
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1e1_AMrOEe-sv4XfQjMMWw" value="*"/>
-    </ownedEnd>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_mRS2wsrOEe-sv4XfQjMMWw" type="_8axEwMrNEe-sv4XfQjMMWw" association="_mRQagMrOEe-sv4XfQjMMWw"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_lJ6igMrPEe-sv4XfQjMMWw" memberEnd="_lJ8-wMrPEe-sv4XfQjMMWw _lJ9l0srPEe-sv4XfQjMMWw">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lJ8XsMrPEe-sv4XfQjMMWw" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lJ8XscrPEe-sv4XfQjMMWw" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_lJ9l0srPEe-sv4XfQjMMWw" type="_MBlssMdtEe-_hqqmhjdMHg" association="_lJ6igMrPEe-sv4XfQjMMWw"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_lJ8-wMrPEe-sv4XfQjMMWw" name="richiede" type="_LbpHAMdtEe-_hqqmhjdMHg" association="_lJ6igMrPEe-sv4XfQjMMWw">
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lJ9l0crPEe-sv4XfQjMMWw" value="*"/>
-    </ownedEnd>
-  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_I1t3oMrQEe-sv4XfQjMMWw" memberEnd="_I1vFwsrQEe-sv4XfQjMMWw _I1w68srQEe-sv4XfQjMMWw">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_I1vFwMrQEe-sv4XfQjMMWw" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_I1vFwcrQEe-sv4XfQjMMWw" key="nature" value="UML_Nature"/>
@@ -428,32 +381,15 @@ ECC....</body>
     </ownedEnd>
     <ownedEnd xmi:type="uml:Property" xmi:id="_I1vFwsrQEe-sv4XfQjMMWw" name="interfaccia" type="_LbpHAMdtEe-_hqqmhjdMHg" association="_I1t3oMrQEe-sv4XfQjMMWw"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_VAUzUMrQEe-sv4XfQjMMWw" memberEnd="_VAWogsrQEe-sv4XfQjMMWw _VAXPksrQEe-sv4XfQjMMWw" navigableOwnedEnd="_VAWogsrQEe-sv4XfQjMMWw">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VAWogMrQEe-sv4XfQjMMWw" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VAWogcrQEe-sv4XfQjMMWw" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_VAXPksrQEe-sv4XfQjMMWw" name="controlla" type="_Z-LjgMrHEe-sv4XfQjMMWw" association="_VAUzUMrQEe-sv4XfQjMMWw"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_VAWogsrQEe-sv4XfQjMMWw" type="_OQ3nsMdtEe-_hqqmhjdMHg" association="_VAUzUMrQEe-sv4XfQjMMWw">
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_X_kLoMrQEe-sv4XfQjMMWw" value="*"/>
-    </ownedEnd>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_ihR24MrQEe-sv4XfQjMMWw" memberEnd="_ihTsEsrQEe-sv4XfQjMMWw _iherMMrQEe-sv4XfQjMMWw">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ihTsEMrQEe-sv4XfQjMMWw" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ihTsEcrQEe-sv4XfQjMMWw" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_iherMMrQEe-sv4XfQjMMWw" name="possiede" type="_LbpHAMdtEe-_hqqmhjdMHg" association="_ihR24MrQEe-sv4XfQjMMWw"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_ihTsEsrQEe-sv4XfQjMMWw" type="_OQ3nsMdtEe-_hqqmhjdMHg" association="_ihR24MrQEe-sv4XfQjMMWw">
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ihbn4MrQEe-sv4XfQjMMWw" value="*"/>
-    </ownedEnd>
-  </packagedElement>
   <packagedElement xmi:type="uml:Model" xmi:id="_UUBWoMuDEe-Mx6PjBOP1bg" name="parcheggio">
     <packagedElement xmi:type="uml:Package" xmi:id="_pSxBcMuDEe-Mx6PjBOP1bg" name="GestioneUtenti">
       <packagedElement xmi:type="uml:Class" xmi:id="_xlVUkMuDEe-Mx6PjBOP1bg" name="Utenti"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_90qYMMuDEe-Mx6PjBOP1bg" name="Abbonamento"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_-KQNsMuDEe-Mx6PjBOP1bg" name="VisitatoreOccasionale"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_-Q1W0MuDEe-Mx6PjBOP1bg" name="Residente"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_ZK-pEMuEEe-Mx6PjBOP1bg" client="_pSxBcMuDEe-Mx6PjBOP1bg" supplier="_PmKD4MuEEe-Mx6PjBOP1bg"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_BHbUAMuFEe-Mx6PjBOP1bg" client="_pSxBcMuDEe-Mx6PjBOP1bg" supplier="_NMYJEMuEEe-Mx6PjBOP1bg"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_gCDQ0ODIEe-dvt4quQpexQ" client="_-KQNsMuDEe-Mx6PjBOP1bg" supplier="_xlVUkMuDEe-Mx6PjBOP1bg"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_g2V0gODIEe-dvt4quQpexQ" client="_-Q1W0MuDEe-Mx6PjBOP1bg" supplier="_xlVUkMuDEe-Mx6PjBOP1bg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_NMYJEMuEEe-Mx6PjBOP1bg" name="GestioneParcheggi">
       <packagedElement xmi:type="uml:Class" xmi:id="_NMYJEcuEEe-Mx6PjBOP1bg" name="Utenti"/>
@@ -477,13 +413,16 @@ ECC....</body>
     <packagedElement xmi:type="uml:Component" xmi:id="_IDAXUMuLEe-Mx6PjBOP1bg" name="GestioneUtenti">
       <nestedClassifier xmi:type="uml:Interface" xmi:id="_Hzll0MuMEe-Mx6PjBOP1bg" name="registraUtente"/>
       <nestedClassifier xmi:type="uml:Interface" xmi:id="_RJtAoMuMEe-Mx6PjBOP1bg" name="gestisciAbb"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_zd-oQOl_Ee-4jvoab9YMkQ" client="_IDAXUMuLEe-Mx6PjBOP1bg" supplier="_MKysEMuLEe-Mx6PjBOP1bg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Component" xmi:id="_MKysEMuLEe-Mx6PjBOP1bg" name="GestioneParcheggi">
       <nestedClassifier xmi:type="uml:Interface" xmi:id="_dlZsUMuMEe-Mx6PjBOP1bg" name="verificaAccesso"/>
       <nestedClassifier xmi:type="uml:Interface" xmi:id="_dHCVUMuMEe-Mx6PjBOP1bg" name="monitoraSpazi"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_IABI8OmAEe-4jvoab9YMkQ" client="_MKysEMuLEe-Mx6PjBOP1bg" supplier="_R-ZpcMuLEe-Mx6PjBOP1bg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Component" xmi:id="_RAEY8MuLEe-Mx6PjBOP1bg" name="SistemaNotifica">
       <nestedClassifier xmi:type="uml:Interface" xmi:id="_sOPlAMuMEe-Mx6PjBOP1bg" name="inviaNotifica"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_jjdP0OmAEe-4jvoab9YMkQ" client="_RAEY8MuLEe-Mx6PjBOP1bg" supplier="_R-ZpcMuLEe-Mx6PjBOP1bg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Component" xmi:id="_R-ZpcMuLEe-Mx6PjBOP1bg" name="GestionePagamenti">
       <nestedClassifier xmi:type="uml:Interface" xmi:id="_jmmZwMuMEe-Mx6PjBOP1bg" name="elaboraPagamento"/>
