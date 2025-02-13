@@ -1,6 +1,7 @@
-package com.example.demo.service;
+package com.example.demo.testService;
 
 import com.example.demo.repository.VisitatoreRepository;
+import com.example.demo.service.VisitatoreService;
 import com.example.demo.src_gen.diagrammi_uml.VisitatoreOccasionale;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
